@@ -1,0 +1,71 @@
+import type { Metadata } from "next";
+import { integrations } from "@/config/integrations";
+import { siteConfig } from "@/config/site";
+import type { HomePageDefinition, PageType, SeoPageDefinition } from "@/config/types";
+import { absoluteUrl, assetPath, siteRootUrl } from "./urls";
+
+type MetadataPage = Pick<
+  HomePageDefinition | SeoPageDefinition,
+  "slug" | "title" | "description"
+> & {
+  pageType?: PageType;
+};
+
+export function pageMetadata(page: MetadataPage): Metadata {
+  const canonical = absoluteUrl(page.slug);
+  const isLegal = page.pageType === "legal";
+
+  return {
+    title: { absolute: page.title },
+    description: page.description,
+    alternates: { canonical },
+    robots: {
+      index: !isLegal,
+      follow: true,
+      googleBot: { index: !isLegal, follow: true },
+    },
+    openGraph: {
+      type: "website",
+      locale: siteConfig.locale,
+      siteName: siteConfig.siteName,
+      title: page.title,
+      description: page.description,
+      url: canonical,
+      images: [
+        {
+          url: absoluteAssetUrl(siteConfig.assets.openGraph),
+          alt: `${siteConfig.siteName} preview`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: page.title,
+      description: page.description,
+      images: [absoluteAssetUrl(siteConfig.assets.openGraph)],
+    },
+  };
+}
+
+export function rootMetadata(): Metadata {
+  const google = integrations.verification.google ?? undefined;
+  const bing = integrations.verification.bing ?? undefined;
+
+  return {
+    metadataBase: new URL(`${siteRootUrl()}/`),
+    title: {
+      default: siteConfig.siteName,
+      template: siteConfig.seo.titleTemplate,
+    },
+    applicationName: siteConfig.siteName,
+    icons: { icon: assetPath(siteConfig.assets.favicon) },
+    verification: google ? { google } : undefined,
+    other: bing ? { "msvalidate.01": bing } : undefined,
+  };
+}
+
+function absoluteAssetUrl(path: string) {
+  if (/^https?:\/\//i.test(path)) return path;
+  const clean = path.replace(/^\/+/, "");
+  return new URL(clean, `${siteRootUrl()}/`).toString();
+}

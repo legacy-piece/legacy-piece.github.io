@@ -1,0 +1,232 @@
+{
+  "enabled": true,
+  "slug": "",
+  "pageType": "home",
+  "title": "Legacy Piece Wiki, Codes, Tier List & Guides (2026)",
+  "description": "Explore the 2026 Legacy Piece Roblox game with current codes, build comparisons, Dio and Araya guides, and links to the right community resources.",
+  "navVisible": true,
+  "hero": {
+    "eyebrow": "2026 Roblox action RPG guide",
+    "heading": "Legacy Piece",
+    "lead": "Explore the 2026 Legacy Piece by Gwynn's Shrine on Roblox. Find codes, compare build choices, and open focused guides for the characters and systems you are working on now.",
+    "supportingText": "This hub follows the current experience at Roblox place 111097829542198. Start with the task you need, then use the linked guides for the details.",
+    "primaryLink": {
+      "label": "Browse Legacy Piece codes",
+      "slug": "codes"
+    },
+    "secondaryLink": {
+      "label": "Open the Roblox game",
+      "url": "https://www.roblox.com/games/111097829542198"
+    }
+  },
+  "sections": [
+    {
+      "id": "codes",
+      "heading": "Legacy Piece Codes",
+      "intro": "Codes are the fastest place to start when you return after an update. New releases and player milestones can bring time-sensitive rewards, while old lists may still circulate long after a code stops redeeming.",
+      "paragraphs": [
+        "Open our Legacy Piece codes page for a practical redemption list, the exact strings to copy, and an explanation of where to enter them. The newest entries are placed first so you can test the current update before spending time on older releases. Keep every punctuation mark when you paste a code; a missing exclamation point can make an otherwise valid entry fail.",
+        "Treat a code as a bonus to a plan, not the plan itself. If a reward supplies rerolls, decide which part of your build you actually want to change before using them. If it supplies a boss-related item, save it until you can take advantage of that activity. This keeps a new player from converting free resources into a random early choice that does little for their current route."
+      ],
+      "subsections": [
+        {
+          "heading": "Use codes in the right game",
+          "paragraphs": [
+            "Several Roblox experiences share the Legacy Piece name. Check that the creator is Gwynn's Shrine and that the game link uses place ID 111097829542198 before following any code list. The current official description presents the game as a combat and progression adventure with a level cap of 12,000 and support for PC, mobile, and console. A page describing a different creator or an older cap may be covering another experience or a previous update."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "See the latest Legacy Piece codes",
+          "slug": "codes"
+        },
+        {
+          "label": "Find official and community resources",
+          "slug": "trello-wiki-discord"
+        }
+      ]
+    },
+    {
+      "id": "tier-list",
+      "heading": "Legacy Piece Tier List",
+      "intro": "A single rank cannot tell you whether a choice fits every boss, farming route, or player fight. Use the overall tier list as a starting map, then open the page for the system you are actually choosing.",
+      "paragraphs": [
+        "Our Legacy Piece tier list summarizes the strongest directions across abilities and build systems and explains the criteria behind the order. It separates useful general choices from options that shine only in a specific activity. The list is an editorial reading of the current game, not an official developer ranking, and its value comes from showing why an option may be better for grinding, movement, survival, or combat control.",
+        "For a new character, prioritize consistency. A setup that reliably clears the content you can reach usually beats a rare outcome that only performs well after a long unlock path. Once your main damage source feels stable, revisit the rankings for a specific improvement. If your problem is a race, clan, or trait roll, go directly to that guide; you will find more focused comparisons there than in the overview."
+      ],
+      "links": [
+        {
+          "label": "Compare the Legacy Piece tier list",
+          "slug": "tier-list"
+        },
+        {
+          "label": "Review the trait tier list",
+          "slug": "traits"
+        }
+      ]
+    },
+    {
+      "id": "characters-bosses",
+      "heading": "Character & Boss Guides",
+      "intro": "Named encounters often send players searching for a location, an unlock route, or a way to survive the fight. Keep the character guides separate so those answers are easy to find while you play.",
+      "paragraphs": [
+        "The Legacy Piece Dio guide is the focused route for players asking about Dio. It starts with the character's place in the current game, then organizes preparation, encounter checks, combat decisions, and the next page to use when a build change would help. Before committing resources to any route, compare what the live game shows with the page's review date; update events can move an interaction or change a prerequisite.",
+        "The Araya guide handles Araya questions in the same direct way. Use it when you want to identify the right character or activity, understand how to approach it, and avoid conflating the current Roblox game with older pages that use the same name. If you are deciding whether to change a trait, race, clan, or fruit to handle a difficult encounter, open that system's guide after you understand the fight itself."
+      ],
+      "links": [
+        {
+          "label": "Read the Legacy Piece Dio guide",
+          "slug": "dio"
+        },
+        {
+          "label": "Read the Legacy Piece Araya guide",
+          "slug": "araya"
+        }
+      ]
+    },
+    {
+      "id": "build-systems",
+      "heading": "Build Systems: Traits, Races, Clans & Fruits",
+      "intro": "Legacy Piece builds contain decisions that do different jobs. Separating them makes it easier to spend rerolls carefully and to see why one player's favorite setup may not suit another player's goal.",
+      "paragraphs": [
+        "Begin with the part of the build that causes a real bottleneck. If ordinary enemies take too long, inspect your core damage and the way you use its abilities before chasing a new passive. If a boss repeatedly forces you to retreat, consider survival and control alongside raw damage. If movement is the issue, value travel and repositioning instead of judging every option by a damage label.",
+        "Traits are a compact way to refine a character after the main playstyle is chosen. Our trait tier list explains what to compare, where PvE and PvP priorities diverge, and when holding a useful roll is wiser than spending another reroll. The races guide covers race differences and selection logic. The clans guide looks at how a clan supports an overall setup. The fruits guide stays focused on fruit playstyles, how to judge utility, and what a player should consider before changing direction.",
+        "Think in combinations rather than isolated ranks. A useful race may support a fruit that needs space to operate; a clan may make a slower style more comfortable; a trait may improve the activity you are actually farming. A top-ranked name in one category does not automatically make the entire build stronger. The best next choice is the one that fixes the most expensive weakness in your current route."
+      ],
+      "subsections": [
+        {
+          "heading": "A sensible order for rerolls",
+          "paragraphs": [
+            "First decide whether you mainly want to quest and grind, challenge bosses, or focus on PvP. Then choose a core ability or fruit you enjoy using. After that, compare your race and clan to the demands of that playstyle. Save trait fine-tuning for when you know what improvement you are seeking. This order gives every reroll a question to answer instead of turning progression into repeated random changes."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Compare Legacy Piece traits",
+          "slug": "traits"
+        },
+        {
+          "label": "Choose a Legacy Piece race",
+          "slug": "races"
+        },
+        {
+          "label": "Compare Legacy Piece clans",
+          "slug": "clans"
+        },
+        {
+          "label": "Explore Legacy Piece fruits",
+          "slug": "fruits"
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "heading": "Legacy Piece Trello, Wiki & Discord Resources",
+      "intro": "The official game page is the safest starting point for the current experience and any community destination it presents. Resource links deserve the same version check as codes and guides.",
+      "paragraphs": [
+        "Our resource page gathers the official Roblox link and explains how to navigate toward the current Trello, wiki, and Discord or community entry when those links are available from a trustworthy route. It also shows how to check the creator and place ID so a search result for an older same-name game does not send you to the wrong community.",
+        "Use the official game's current social links or community invitation for live announcements. Those channels are especially useful around update releases, when a server restart can coincide with a new code or a changed mechanic. For a stable explanation, use a focused guide here; for a live announcement, check the developer's current channel. That distinction helps you avoid treating a months-old screenshot as a permanent rule."
+      ],
+      "links": [
+        {
+          "label": "Open the Trello, wiki and Discord resource guide",
+          "slug": "trello-wiki-discord"
+        },
+        {
+          "label": "Check current code entries",
+          "slug": "codes"
+        }
+      ]
+    },
+    {
+      "id": "what-is-legacy-piece",
+      "heading": "What Is Legacy Piece?",
+      "intro": "Legacy Piece is a Roblox action RPG created by Gwynn's Shrine. The official game description describes character training, ability mastery, bandit fights, and a climb through progression toward the current 12,000 level cap.",
+      "paragraphs": [
+        "The game is accessible on PC, mobile, and console according to its Roblox listing. The broad loop is straightforward: fight enemies, improve your character, learn the abilities that suit your playstyle, and take on harder activities as your build develops. That loop gives a code or a tier list meaning. A free reward matters because it helps you advance a route; a ranking matters because it helps you choose where to invest your time or rerolls.",
+        "The title is easy to confuse with older Legacy Piece experiences and articles. On this site, Legacy Piece always means the Gwynn's Shrine game at place ID 111097829542198, associated with universe ID 9880286438. You can verify the creator on the official Roblox page before joining. This small check is particularly valuable when a search result discusses a different level cap, different locations, or a roster that does not match what you see in game.",
+        "Because an action RPG evolves through updates, use dates as context. Our guides carry a review date, and code entries are grouped by recency. A guide can explain a good decision framework even when a number changes; a precise reward, prerequisite, or location should always be compared with the live game if an update has just landed."
+      ]
+    },
+    {
+      "id": "site-organization",
+      "heading": "How This Legacy Piece Guide Is Organized",
+      "intro": "Each page answers one main player question so you can find the relevant detail without searching through an unrelated wall of content.",
+      "paragraphs": [
+        "Use Codes when you want redeemable strings and troubleshooting. Use Tier List for a quick cross-system overview. Use Dio or Araya when a named character or encounter is the task in front of you. Use Traits, Races, Clans, or Fruits when you are comparing a specific part of a build. Use Resources when you need to confirm the official experience or find its community path.",
+        "The category pages link back to the overall ranking when a comparison across systems helps, while the overall ranking points into the more detailed pages. Character pages connect to each other and to the build overview so you can move from an encounter question to a preparation question. This structure also prevents a short summary from pretending to be a complete system guide.",
+        "If you are completely new, start with the official game link above, redeem recent codes, and play long enough to learn which activity you enjoy. Then use a system page to answer a specific decision. If you are returning after a patch, check codes and resources first, and use the tier list to review any change in how your current setup feels."
+      ],
+      "links": [
+        {
+          "label": "Start with codes",
+          "slug": "codes"
+        },
+        {
+          "label": "Scan the tier list",
+          "slug": "tier-list"
+        },
+        {
+          "label": "Find current game resources",
+          "slug": "trello-wiki-discord"
+        }
+      ]
+    },
+    {
+      "id": "first-session",
+      "heading": "A Practical First-Session Route",
+      "intro": "A short route makes the guide easier to put into action. You can follow it without committing rare resources before you understand the game.",
+      "steps": [
+        {
+          "heading": "Confirm the experience",
+          "description": "Open the Gwynn's Shrine Roblox game at place ID 111097829542198, then enter a current server."
+        },
+        {
+          "heading": "Collect recent rewards",
+          "description": "Check the codes page and copy the newest entries exactly. Keep any build-changing rewards until you know what you want to improve."
+        },
+        {
+          "heading": "Learn your core combat loop",
+          "description": "Try ordinary fights and quests with one main damage direction. Notice whether your limiting factor is damage, survivability, mobility, or control."
+        },
+        {
+          "heading": "Choose a focused guide",
+          "description": "Use the race, clan, trait, or fruit page for the decision you now face. Use Dio or Araya when your immediate task is a named encounter."
+        },
+        {
+          "heading": "Review the bigger picture",
+          "description": "Visit the tier list to compare your setup across activities, then return to the relevant system page before spending a reroll."
+        }
+      ],
+      "paragraphs": [
+        "This order keeps each decision tied to an observed need. It also lets you use the same guides later: after a new patch, restart at codes and resources; after a build change, revisit the rankings; before a difficult encounter, read the character guide and tune only the part of your setup that is holding you back."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Which Legacy Piece game does this guide cover?",
+      "answer": "It covers the current 2026 Roblox Legacy Piece by Gwynn's Shrine, at place ID 111097829542198 and universe ID 9880286438."
+    },
+    {
+      "question": "Where should I start in Legacy Piece?",
+      "answer": "Confirm the correct Roblox game, check recent codes, play enough to understand your main combat style, and then open the guide for the build choice or encounter you face."
+    },
+    {
+      "question": "Is the Legacy Piece tier list official?",
+      "answer": "No. It is an editorial comparison organized around activities such as grinding, bosses, and PvP. The game developer does not publish the rankings on this site."
+    },
+    {
+      "question": "Where can I find the Legacy Piece Discord or Trello?",
+      "answer": "Start at the official Roblox game page and follow its current community or social links. The resource guide explains how to recognize the correct game and related pages."
+    },
+    {
+      "question": "What is the current Legacy Piece level cap?",
+      "answer": "The Gwynn's Shrine Roblox description lists a max level of 12,000 as of this guide's September 29, 2026 review."
+    }
+  ],
+  "screenshots": [],
+  "lastReviewed": "2026-09-29"
+}
