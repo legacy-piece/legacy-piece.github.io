@@ -1,4 +1,4 @@
-import { NativeAdSlot } from "@/components/integrations/native-ad-slot";
+import { FixedTemplateAdContent } from "@/components/integrations/fixed-template-ad-content";
 import { JsonLd } from "@/components/site/json-ld";
 import { siteConfig } from "@/config/site";
 import { siteSkin } from "@/config/skin";
@@ -43,8 +43,7 @@ export function FixedTemplateInner({ page }: { page: SeoPageDefinition }) {
   return (
     <>
       <JsonLd data={pageSchemas(page)} />
-      <div dangerouslySetInnerHTML={{ __html: rendered.rest }} />
-      <div className="site-container"><NativeAdSlot /></div>
+      <FixedTemplateAdContent html={rendered.rest} page="inner" />
     </>
   );
 }

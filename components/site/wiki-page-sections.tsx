@@ -1,17 +1,26 @@
 import Link from "next/link";
+import { Fragment } from "react";
 import type { PageSection } from "@/config/types";
 import { routePath } from "@/lib/urls";
 import { DataTable } from "./data-table";
+import { NativeAdSlot } from "@/components/integrations/native-ad-slot";
 
-export function WikiPageSections({ sections }: { sections: PageSection[] }) {
+export function WikiPageSections({ sections, nativeAfterFirstContent = false }: { sections: PageSection[]; nativeAfterFirstContent?: boolean }) {
   return (
     <div className="wiki-page-sections">
-      {sections.map((section) => (
+      {sections.map((section, sectionIndex) => (
         <section id={section.id} key={section.id} className="scroll-mt-24">
           {section.eyebrow ? <p className="eyebrow">{section.eyebrow}</p> : null}
           <h2>{section.heading}</h2>
           {section.intro ? <p className="section-lead">{section.intro}</p> : null}
-          {section.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          {nativeAfterFirstContent && sectionIndex === 0 && section.intro ? <NativeAdSlot /> : null}
+          {section.paragraphs?.map((paragraph, paragraphIndex) => (
+            <Fragment key={paragraph}>
+              <p>{paragraph}</p>
+              {nativeAfterFirstContent && sectionIndex === 0 && !section.intro && paragraphIndex === 0 ? <NativeAdSlot /> : null}
+            </Fragment>
+          ))}
+          {nativeAfterFirstContent && sectionIndex === 0 && !section.intro && !section.paragraphs?.length ? <NativeAdSlot /> : null}
 
           {section.subsections?.length ? (
             <div className="wiki-subsections">

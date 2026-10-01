@@ -1,6 +1,6 @@
 import { BookOpen, ExternalLink, Gamepad2 } from "lucide-react";
 import Link from "next/link";
-import { NativeAdSlot } from "@/components/integrations/native-ad-slot";
+import { ResponsiveBanner } from "@/components/integrations/responsive-banner";
 import { Faq } from "@/components/site/faq";
 import { JsonLd } from "@/components/site/json-ld";
 import { PageSections } from "@/components/site/page-sections";
@@ -117,13 +117,13 @@ export function SkinHomePage() {
           </section>
         ) : null}
 
-        <div className="site-container"><NativeAdSlot /></div>
+        <div className="site-container"><ResponsiveBanner /></div>
         <div className={`site-container skin-home-body skin-home-body-${skin}`}>
           {skin === "resource" ? (
             <div className="skin-resource-columns">
               <div>
                 <h2>Popular guides</h2>
-                <PageSections sections={homePage.sections} />
+                <PageSections sections={homePage.sections} nativeAfterFirstContent />
               </div>
               <aside>
                 <h2>Most viewed</h2>
@@ -135,7 +135,7 @@ export function SkinHomePage() {
               </aside>
             </div>
           ) : (
-            <PageSections sections={homePage.sections} />
+            <PageSections sections={homePage.sections} nativeAfterFirstContent />
           )}
           {homePage.faq.length ? <Faq items={homePage.faq} /> : null}
         </div>

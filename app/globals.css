@@ -144,7 +144,13 @@ html[data-header-style="border"] .site-nav-link {
   border-radius: 0;
 }
 
-[data-native-ad-slot]:empty { display: none; }
+.ad-placement { box-sizing: border-box; width: 100%; max-width: 100%; margin: 24px auto; text-align: center; overflow: hidden; }
+.ad-label { display: block; margin-bottom: 7px; color: #999; font: 10px/1.2 Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+.ad-banner { min-height: 117px; }
+.ad-banner-frame { display: block; max-width: 100%; margin: 0 auto; border: 0; overflow: hidden; }
+.ad-native { border-top: 1px solid hsl(var(--border)); padding-top: 12px; }
+.ad-native-content { max-width: 100%; overflow: hidden; }
+@media (max-width: 767px) { .ad-banner { min-height: 77px; } }
 
 .site-footer,
 html[data-fixed-template="horror"] .hero::before {

@@ -1,29 +1,29 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { integrations } from "@/config/integrations";
 
-export function NativeAdClient({ scriptUrl, containerId }: { scriptUrl: string; containerId: string }) {
+export function NativeAdClient() {
   const hostRef = useRef<HTMLDivElement>(null);
+  const ads = integrations.ads;
 
   useEffect(() => {
     const host = hostRef.current;
-    if (!host) return;
-
-    const container = document.createElement("div");
-    container.id = containerId;
-    host.appendChild(container);
+    if (!host || ads.provider !== "adsterra-native" || document.getElementById(ads.containerId)) return;
 
     const script = document.createElement("script");
     script.async = true;
-    script.src = scriptUrl;
     script.dataset.cfasync = "false";
-    script.dataset.gameWikiNativeAd = containerId;
-    host.insertBefore(script, container);
+    script.src = ads.scriptUrl;
+
+    const container = document.createElement("div");
+    container.id = ads.containerId;
+    host.append(script, container);
 
     return () => {
       host.replaceChildren();
     };
-  }, [containerId, scriptUrl]);
+  }, [ads]);
 
-  return <div ref={hostRef} data-native-ad-slot />;
+  return <div ref={hostRef} className="ad-native-content" data-native-ad-slot />;
 }

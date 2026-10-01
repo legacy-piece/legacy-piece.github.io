@@ -4,7 +4,7 @@ import { siteSkin } from "@/config/skin";
 import { pageSchemas } from "@/lib/schema";
 import { getRelatedPages } from "@/content/registry";
 import { assetPath } from "@/lib/urls";
-import { NativeAdSlot } from "@/components/integrations/native-ad-slot";
+import { ResponsiveBanner } from "@/components/integrations/responsive-banner";
 import { Breadcrumbs } from "./breadcrumbs";
 import { Faq } from "./faq";
 import { JsonLd } from "./json-ld";
@@ -39,10 +39,10 @@ export function SeoPage({ page }: { page: SeoPageDefinition }) {
           </div>
         </section>
 
-        <div className="site-container"><NativeAdSlot /></div>
+        <div className="site-container"><ResponsiveBanner /></div>
 
         <div className="site-container space-y-20 py-14 sm:py-20">
-          <PageSections sections={page.sections} />
+          <PageSections sections={page.sections} nativeAfterFirstContent />
           {page.screenshots?.length ? (
             <section>
               <h2>Gameplay Screenshots</h2>
