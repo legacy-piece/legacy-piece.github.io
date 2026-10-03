@@ -76,6 +76,9 @@ h1{font-size:clamp(46px,6vw,68px);line-height:1.02;margin:14px 0 18px;letter-spa
 .guide-faq{margin-top:22px}
 .guide-faq h3{margin:0 0 5px}
 .guide-faq p{margin:0}
+@media(min-width:821px){
+  .nav-link{font-size:10px}
+}
 @media(max-width:820px){
   .head{align-items:center;min-height:0;gap:12px}
   .nav-toggle{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:42px;margin-left:auto;padding:9px 12px;border:1px solid var(--line);background:#111720;color:#EAF2FF;font:800 11px/1 Arial,sans-serif;letter-spacing:.08em;cursor:pointer}

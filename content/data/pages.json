@@ -609,6 +609,11 @@
             "slug": "araya",
             "label": "Araya guide",
             "description": "Compare a high-damage ability path with the Dio style path."
+          },
+          {
+            "slug": "the-world-over-heaven",
+            "label": "The World Over Heaven guide",
+            "description": "Follow the dedicated DIO OH upgrade route and requirements."
           }
         ]
       },
@@ -738,6 +743,13 @@
         "paragraphs": [
           "Choose the line about finding her moment. Then speak to her again to enter the Abandoned Estate. The useful navigation clue is the NPC and her dialogue, not a borrowed coordinate: players can locate the route even if the island's scenery or camera angle differs between devices. On mobile, zoom out enough to see the paths around the rear of the island; on console, follow the area name and interact prompt.",
           "The current Roblox listing supports PC, mobile, and console. That does not mean every platform displays an identical prompt, so read the objective text after accepting the quest. If the estate entry is unavailable, finish the active stage shown by the NPC before searching for a second portal. The route is sequential: the estate echo objective comes before the Time Safe material farm."
+        ],
+        "links": [
+          {
+            "slug": "lost-afterimage",
+            "label": "Lost Afterimage location guide",
+            "description": "Find the Araya quest contact and follow the route from Graveyard Island."
+          }
         ]
       },
       {
@@ -1145,6 +1157,11 @@
             "slug": "tier-list",
             "label": "Overall Legacy Piece tier list",
             "description": "Place your race choice in the complete build."
+          },
+          {
+            "slug": "undead-fishman",
+            "label": "Undead Fishman unlock guide",
+            "description": "Follow the quest-linked Fishman progression route."
           }
         ]
       },
@@ -1859,6 +1876,11 @@
             "slug": "araya",
             "label": "Legacy Piece Araya guide",
             "description": "Follow the Abandoned Estate and Time Safe path."
+          },
+          {
+            "slug": "trello",
+            "label": "Legacy Piece Trello guide",
+            "description": "Open the dedicated Trello page and board reference."
           }
         ]
       },
@@ -1990,5 +2012,748 @@
       "araya"
     ],
     "lastReviewed": "2026-09-29"
+  },
+  {
+    "enabled": true,
+    "slug": "trello",
+    "pageType": "guide",
+    "navLabel": "Trello",
+    "title": "Legacy Piece Trello – Board, Wiki & Game Resources",
+    "description": "Legacy Piece Trello guide with the current board link, Roblox game identity check, key resource categories, and quick links for codes, builds, and quests.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "Legacy Piece Trello",
+      "lead": "Open the current Legacy Piece Trello for the 2026 Gwynn's Shrine Roblox game, then use the board alongside focused guides for quests, builds, codes, and progression."
+    },
+    "sections": [
+      {
+        "id": "quick-link",
+        "heading": "Legacy Piece Trello Link",
+        "intro": "Current board: trello.com/b/KFVXFKjp/legacy-piece.",
+        "paragraphs": [],
+        "links": [
+          {
+            "slug": "https://trello.com/b/KFVXFKjp/legacy-piece",
+            "label": "Open the Legacy Piece Trello board",
+            "description": "Go directly to the current board and its resource lists."
+          },
+          {
+            "slug": "https://www.roblox.com/games/111097829542198",
+            "label": "Play Legacy Piece on Roblox",
+            "description": "Open the current Gwynn's Shrine experience."
+          }
+        ]
+      },
+      {
+        "id": "what-is-on-trello",
+        "heading": "What Is on the Legacy Piece Trello?",
+        "intro": "Use the board to look up a named system or objective. Its lists include quests, styles, abilities, materials, races, clans, traits, and update logs.",
+        "paragraphs": [
+          "Begin with the thing you are trying to finish. If a dialogue names a quest, find that quest or its associated unlock before looking up individual drops. If you already know the recipe, start with the material card. This keeps an unrelated boss drop or similar item name from sending your farm in the wrong direction.",
+          "For NPC questions, read the quest's starting contact and dialogue alongside the location information. The NPC is often only one part of the route: accepting a stage, entering a trial, and returning for the next dialogue may all be separate actions. A boss card answers a different question from the quest contact that sends you to that boss."
+        ],
+        "table": {
+          "caption": "Which Trello list helps with your question?",
+          "columns": [
+            "Question",
+            "Start with",
+            "Check next"
+          ],
+          "rows": [
+            [
+              "How do I start an unlock?",
+              "Quests",
+              "Starting NPC, dialogue, and prerequisite"
+            ],
+            [
+              "What does this loadout use?",
+              "Styles or Abilities",
+              "Race, Clan, and Traits"
+            ],
+            [
+              "Where does a recipe item come from?",
+              "Materials",
+              "Source enemy and quest condition"
+            ],
+            [
+              "What changed in an update?",
+              "Update Logs",
+              "The affected quest or system card"
+            ]
+          ]
+        },
+        "eyebrow": "Last reviewed: October 3, 2026"
+      },
+      {
+        "id": "trello-vs-guides",
+        "heading": "When to Use Trello vs. a Legacy Piece Guide",
+        "intro": "Use Trello for exact names and current reference details. Use a focused guide when you need the order of a route, a decision, or an answer to a common problem.",
+        "paragraphs": [
+          "A card can tell you that an item drops only during a particular quest stage. A route guide explains when to accept that stage and what to do after the drop arrives. Read those two pieces together before committing to a long farm. Having the right enemy is not enough when the item also depends on active quest progress.",
+          "For example, the Dio guide explains the base The World chain, while the dedicated Over Heaven guide starts from the enhanced prerequisite. The Araya guide covers the later collection route, while the Lost Afterimage page concentrates on finding the quest contact and opening the estate. Choose the page that matches your current obstacle instead of reading every related article from the beginning."
+        ],
+        "links": [
+          {
+            "slug": "lost-afterimage",
+            "label": "Lost Afterimage location guide",
+            "description": "Find the NPC and start the Araya route."
+          },
+          {
+            "slug": "undead-fishman",
+            "label": "Undead Fishman unlock guide",
+            "description": "Check the quest and race evolution requirements."
+          }
+        ]
+      },
+      {
+        "id": "correct-game",
+        "heading": "Make Sure You Have the Right Legacy Piece",
+        "intro": "The game covered here is Legacy Piece by Gwynn's Shrine: Roblox place ID 111097829542198, universe ID 9880286438.",
+        "paragraphs": [
+          "Search results can include older games with the same name. Check the creator and numeric place ID before using a map, recipe, or race guide. A familiar title alone is not a sufficient match. The official Roblox link at the top of this page is the simplest identity check before you launch a new farming session.",
+          "Then compare the route names with your current game. Ruin City and the Dio progression, Graveyard Island and Lost Afterimage, and the Fishman evolution quests are the relevant systems discussed here. If another article describes different starting areas or a different roster, return to the official listing and compare its creator. Do this before spending rerolls or treating an old material checklist as your next objective."
+        ]
+      },
+      {
+        "id": "popular-guides",
+        "heading": "Popular Legacy Piece Guides",
+        "intro": "Choose a guide by the task you are doing now: claiming rewards, choosing a build, or completing a named quest.",
+        "paragraphs": [
+          "Open codes when you want the redemption walkthrough and the listed rewards. Open the tier list when you are choosing a longer-term loadout. Dio handles the base style chain, and The World Over Heaven handles the later upgrade. Araya covers the Time Safe collection path. Races explains how passive roles and quest-linked unlocks affect a build.",
+          "For announcements and the Discord entry route, the Trello, Wiki, and Discord resource hub keeps those references together. Use community links from the current Roblox listing or board when looking for an invite. Return to a focused guide after reading an announcement so you can put any changed requirement back into the sequence you are following."
+        ],
+        "links": [
+          {
+            "slug": "codes",
+            "label": "Legacy Piece codes",
+            "description": "Check rewards and redemption help."
+          },
+          {
+            "slug": "tier-list",
+            "label": "Legacy Piece tier list",
+            "description": "Compare current build targets."
+          },
+          {
+            "slug": "dio",
+            "label": "Legacy Piece Dio guide",
+            "description": "Complete the base The World route."
+          },
+          {
+            "slug": "araya",
+            "label": "Legacy Piece Araya guide",
+            "description": "Plan the Time Safe material farm."
+          },
+          {
+            "slug": "races",
+            "label": "Legacy Piece races",
+            "description": "Compare passive roles and quest-linked lines."
+          },
+          {
+            "slug": "the-world-over-heaven",
+            "label": "The World Over Heaven guide",
+            "description": "Follow the dedicated DIO OH upgrade path."
+          },
+          {
+            "slug": "trello-wiki-discord",
+            "label": "Trello, Wiki, and Discord resources",
+            "description": "Find the community resource entry points."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the Legacy Piece Trello link?",
+        "answer": "The board URL is trello.com/b/KFVXFKjp/legacy-piece. Use the board link at the top of this page to browse its lists or find a named quest and material card."
+      },
+      {
+        "question": "Is this Trello for the current Legacy Piece game?",
+        "answer": "This page covers the Gwynn's Shrine experience at Roblox place ID 111097829542198 and universe ID 9880286438. Check the developer and place ID when comparing same-name game resources."
+      },
+      {
+        "question": "What can I find on the Legacy Piece Trello?",
+        "answer": "The board has reference lists for quests, styles, abilities, materials, races, clans, traits, and updates. Read the specific quest or item card for its prerequisites and source conditions."
+      },
+      {
+        "question": "Where is the Legacy Piece Discord?",
+        "answer": "Use the current Roblox listing or the community links on the board to reach the game community. The Trello, Wiki, and Discord resource page explains these entry points."
+      },
+      {
+        "question": "Where can I find Legacy Piece codes?",
+        "answer": "Use the dedicated codes page for the reward table, redemption walkthrough, and common error fixes. For a newly announced code, also check the current game community announcements."
+      }
+    ],
+    "relatedSlugs": [
+      "trello-wiki-discord",
+      "codes",
+      "tier-list",
+      "dio",
+      "araya"
+    ],
+    "lastReviewed": "2026-10-03"
+  },
+  {
+    "enabled": true,
+    "slug": "the-world-over-heaven",
+    "pageType": "guide",
+    "navLabel": "Over Heaven",
+    "title": "Legacy Piece The World Over Heaven – DIO OH Guide",
+    "description": "Legacy Piece The World Over Heaven guide covering the DIO OH progression path, base The World prerequisite, upgrade planning, and common route mistakes.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "Legacy Piece The World Over Heaven",
+      "lead": "Follow the dedicated Legacy Piece The World Over Heaven route after finishing the base Dio questline, then prepare the enhanced The World prerequisite and later Ruin City objectives."
+    },
+    "sections": [
+      {
+        "id": "quick-answer",
+        "heading": "How to Get The World Over Heaven in Legacy Piece",
+        "intro": "Finish base The World, enhance it to +10, then return to Dio in Ruin City for the Earthly Proofs questline. Complete the later objectives and final turn-in to reach the Over Heaven upgrade.",
+        "paragraphs": [
+          "Legacy Piece DIO OH is a later progression project. The base style is the entry requirement, not the final reward you are searching for. Once The World is enhanced, the route moves through proof quests, the Realm Beyond Heaven raid, and an upgrade collection. Plan those stages separately so you know whether your next action is enhancement, a quest counter, a raid objective, or the final exchange.",
+          "The current DIO (TWOH) board card gives the starting dialogue and proof sequence. Keep that card beside your active objective while playing. If you have not unlocked the base style yet, use the Dio guide first; this page begins at the transition into Over Heaven rather than repeating the full Bloodline Trial."
+        ],
+        "links": [
+          {
+            "slug": "https://trello.com/c/ZU5k422p/635-dio-twoh",
+            "label": "DIO (TWOH) quest card",
+            "description": "Read the current Earthly Proofs and upgrade requirements."
+          },
+          {
+            "slug": "dio",
+            "label": "Base Dio and The World guide",
+            "description": "Finish the prerequisite before beginning DIO OH."
+          }
+        ],
+        "eyebrow": "Last reviewed: October 3, 2026"
+      },
+      {
+        "id": "requirements",
+        "heading": "The World Over Heaven Requirements",
+        "intro": "Own The World and enhance that style to +10 before opening the road to Heaven. The subsequent requirements belong to the Earthly Proofs route.",
+        "paragraphs": [
+          "Check the actual style and enhancement screen before returning to the quest NPC. Upgrading a different weapon or accessory to +10 does not satisfy the named The World prerequisite. The board directs players to enhancement at Ice Island. Do not treat a similar mode, outfit, or bundle name as proof that the base style is ready.",
+          "Keep the entry check separate from the final collection. You can meet the enhancement requirement and still have several objectives left. Save materials requested by the active quest, and distinguish quest-only progress from items used in the last turn-in. A finished kill counter is useful progress, but it does not replace a missing material or title."
+        ],
+        "table": {
+          "caption": "DIO OH preparation checkpoints",
+          "columns": [
+            "Checkpoint",
+            "Requirement",
+            "What to inspect"
+          ],
+          "rows": [
+            [
+              "Open the route",
+              "Own base The World",
+              "The unlocked style, not its outfit"
+            ],
+            [
+              "Enhancement",
+              "The World at +10",
+              "Enhance the named style at Ice Island"
+            ],
+            [
+              "Later progression",
+              "Earthly Proofs quests",
+              "Current dialogue and objective"
+            ],
+            [
+              "Final upgrade",
+              "Materials and title",
+              "Complete collection before the turn-in"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "base-the-world",
+        "heading": "Finish The World Before Starting DIO OH",
+        "intro": "The base Dio route begins in Ruin City. Complete that chain and obtain The World before looking for the Over Heaven dialogue.",
+        "paragraphs": [
+          "The NPC, the base style, and the later upgrade share the Dio name, which makes search results easy to misread. The base route has its own quest progression and trial. Winning that final base encounter gives you a prerequisite for the next project; it does not automatically complete Heaven ascension.",
+          "Use the dedicated Dio page for the Joestar requirement, starting payment, base quests, and arrow craft. Carry those instructions only as far as the base unlock. Once your style is ready, return here and follow the upgrade-specific objectives. This split also helps you budget: resources for a finished base recipe should not be mistaken for the complete Over Heaven bill."
+        ],
+        "links": [
+          {
+            "slug": "dio",
+            "label": "Finish the base The World questline",
+            "description": "Read the Ruin City route and base-style requirements."
+          }
+        ]
+      },
+      {
+        "id": "upgrade-route",
+        "heading": "The World Over Heaven Upgrade Route",
+        "intro": "At the Dio seller in Ruin City, choose “Ask about the road to Heaven,” then “I am ready to walk it.” Follow the proofs in order.",
+        "paragraphs": [
+          "The first two proofs move you from a Dio fight into collecting Heavenly Diaries. The later proofs take you into Realm Beyond Heaven. Keep The World equipped for the raid and read the objective before interacting with a seal. The Chrono Seal task depends on your own Time Stop, so another player's control window is not the same check.",
+          "Return to the Ruin City NPC after the proofs and collection are complete. Check your inventory and the equipped title before opening the completion dialogue. The current card describes ascending with The World equipped after the final interaction. Follow the game's prompt for your device rather than treating one keyboard input as a universal mobile or console control."
+        ],
+        "steps": [
+          {
+            "heading": "Complete the opening proofs",
+            "description": "Defeat Dio once, then collect five Heavenly Diaries for the next proof and the raid key."
+          },
+          {
+            "heading": "Clear the raid objectives",
+            "description": "Still three Chrono Seals during your own Time Stop, then obtain Echo of the Rewritten Hour while its quest is active."
+          },
+          {
+            "heading": "Finish the upgrade collection",
+            "description": "Prepare 35 Frozen Time Cores, 10 Heavenly Ascension Relics, 25 Fragments of Heaven, and the He Who Rewrote Heaven title. Return to Dio with the title equipped."
+          }
+        ],
+        "links": [
+          {
+            "slug": "https://trello.com/c/11CYn7jK/704-realm-beyond-heaven-key",
+            "label": "Realm Beyond Heaven Key reference",
+            "description": "Check the raid entry item and its sources."
+          }
+        ]
+      },
+      {
+        "id": "build-use",
+        "heading": "What The World Over Heaven Adds to a Build",
+        "intro": "The World Over Heaven is valued for Time Stop, damage, and a supporting buff. Its usefulness depends on how those tools fit your main rotation.",
+        "paragraphs": [
+          "For a main-style setup, time control can create space for damage and repositioning. Test the sequence you can repeat safely instead of judging the unlock only by a single burst. A control window helps only when you have the attacks and movement ready to use it. Practice the timing on a familiar encounter before committing an expensive raid entry.",
+          "For a loadout that uses another primary damage source, the supporting buff is a reason to consider Over Heaven alongside that source. Compare your rotation with and without the setup step under similar conditions. Keep the target, gear, and passive layers consistent so you can see what the style contributes."
+        ],
+        "links": [
+          {
+            "slug": "tier-list",
+            "label": "Compare current Legacy Piece builds",
+            "description": "Place Over Heaven in your wider loadout."
+          },
+          {
+            "slug": "clans",
+            "label": "Legacy Piece clan guide",
+            "description": "Review clan roles alongside your damage source."
+          },
+          {
+            "slug": "races",
+            "label": "Legacy Piece race guide",
+            "description": "Match passive effects to the rotation you use."
+          }
+        ]
+      },
+      {
+        "id": "mistakes",
+        "heading": "Common DIO OH Route Mistakes",
+        "intro": "Most wasted attempts come from confusing the base style with Over Heaven, enhancing the wrong item, or farming without the matching proof active.",
+        "paragraphs": [
+          "If the road dialogue does not open, inspect ownership and the +10 enhancement first. After accepting the route, track the named proof rather than assuming every Dio or raid kill advances it. For seals, check the announced target and use your own Time Stop. For the Echo, keep the quest active until the required reward is obtained.",
+          "Do not substitute a material list from an older same-name Legacy Piece game. Check the Gwynn's Shrine experience and the linked DIO (TWOH) card before a long farm. Also keep outfit drops separate from the style upgrade: an accessory with Dio Over Heaven in its name is not the quest completion itself."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do I get Dio Over Heaven in Legacy Piece?",
+        "answer": "Unlock base The World, enhance it to +10, and start the Earthly Proofs at Dio in Ruin City. Complete the later raid objectives and upgrade collection, then return for the final interaction."
+      },
+      {
+        "question": "Is base The World the same as The World Over Heaven?",
+        "answer": "No. The World is the base style; The World Over Heaven is a later upgrade with its own quest progression. The base unlock is a prerequisite."
+      },
+      {
+        "question": "Does The World need to be +10 for DIO OH?",
+        "answer": "Yes. The Over Heaven entry requires the base The World style enhanced to +10. A different enhanced item does not replace that prerequisite."
+      },
+      {
+        "question": "Where does the Over Heaven route begin?",
+        "answer": "Return to the Dio seller NPC in Ruin City and ask about the road to Heaven after preparing the base style and enhancement."
+      },
+      {
+        "question": "What is Dio Heaven Ascension in this route?",
+        "answer": "Dio Heaven Ascension is the boss associated with the Realm Beyond Heaven raid and later proof rewards. It is distinct from the initial base-style unlock."
+      },
+      {
+        "question": "Why is my Chrono Seal interaction not working?",
+        "answer": "Check the seal number announced for the objective and interact during your own The World Time Stop. Also confirm that the relevant proof is active."
+      }
+    ],
+    "relatedSlugs": [
+      "dio",
+      "tier-list",
+      "clans",
+      "races",
+      "trello"
+    ],
+    "lastReviewed": "2026-10-03"
+  },
+  {
+    "enabled": true,
+    "slug": "lost-afterimage",
+    "pageType": "guide",
+    "navLabel": "Lost Afterimage",
+    "title": "Legacy Piece Lost Afterimage – Location & Araya Guide",
+    "description": "Find Lost Afterimage in Legacy Piece, start the Araya route on Graveyard Island, enter the Abandoned Estate, and understand the next Time Safe steps.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "Legacy Piece Lost Afterimage",
+      "lead": "Find the Lost Afterimage near the back of Graveyard Island, start the Araya quest route, clear the Abandoned Estate objective, and unlock the path toward the Time Safe."
+    },
+    "sections": [
+      {
+        "id": "quick-location",
+        "heading": "Where Is Lost Afterimage in Legacy Piece?",
+        "intro": "Lost Afterimage is near the back of Graveyard Island. Speak to her to begin the Araya route, then interact again to enter the Abandoned Estate.",
+        "paragraphs": [
+          "Lost Afterimage is the quest contact you are looking for, rather than a random item to obtain. Travel to Graveyard Island and work toward the rear of the island, using the NPC name and interaction prompt to confirm the contact. On a small screen, leave enough camera space to see paths and interact prompts as you approach.",
+          "Use the current Gwynn's Shrine Roblox experience, place ID 111097829542198. A map from an older game with the same title can point to unrelated locations. The island name and NPC dialogue are better checks than a screenshot taken at one particular camera angle. Once you find her, read the active dialogue before searching for another entrance."
+        ],
+        "links": [
+          {
+            "slug": "https://trello.com/c/c0bSdLkT/644-araya",
+            "label": "Araya quest reference",
+            "description": "Check the current starting requirements and dialogue."
+          },
+          {
+            "slug": "araya",
+            "label": "Full Legacy Piece Araya guide",
+            "description": "Continue into the later Time Safe material route."
+          }
+        ],
+        "eyebrow": "Last reviewed: October 3, 2026"
+      },
+      {
+        "id": "start-quest",
+        "heading": "How to Start the Lost Afterimage Quest",
+        "intro": "Choose “I will find your moment.” Then speak to Lost Afterimage again and select “Enter the Abandoned Estate.”",
+        "paragraphs": [
+          "These are two interactions. The first accepts the route; the next opens its initial estate step. Do not leave after the first dialogue and assume you must locate a separate portal elsewhere. Read the quest objective after accepting, then return to the same contact for the entry option.",
+          "Before entering, identify the current stage and prepare a build suited to repeated enemy clears. You are starting an echo objective, not finishing the entire Araya unlock in one conversation. Keep that distinction in mind when the dialogue changes later: an estate entry and a Time Safe entry correspond to different progress checks."
+        ]
+      },
+      {
+        "id": "abandoned-estate",
+        "heading": "Lost Afterimage and the Abandoned Estate",
+        "intro": "The estate gate requires 180 qualifying echoes. Spider House Disciple and Time-Tangled Guardian are the named enemies associated with the shared counter.",
+        "paragraphs": [
+          "Check the counter after an early clear so you know the enemies you are fighting count toward the objective. Track the displayed progress rather than estimating from time spent in the room. The requirement is a quest counter, not a material stack with a similar name.",
+          "Use attacks you can repeat comfortably through a long clearing session. A rotation with manageable recovery and enough survival is more useful here than one impressive hit followed by frequent downtime. If you play with others, coordinate the route through the encounter so the group can keep clearing without scattered pulls and missed objectives."
+        ],
+        "table": {
+          "caption": "Abandoned Estate objective checks",
+          "columns": [
+            "Check",
+            "What to look for",
+            "Next action"
+          ],
+          "rows": [
+            [
+              "Quest accepted",
+              "The moment route is active",
+              "Enter through Lost Afterimage"
+            ],
+            [
+              "Correct enemies",
+              "Spider House Disciple or Time-Tangled Guardian",
+              "Watch the shared echo counter"
+            ],
+            [
+              "Gate finished",
+              "180 qualifying echoes completed",
+              "Return to the quest contact"
+            ],
+            [
+              "Next stage",
+              "Time Safe dialogue",
+              "Prepare for the dungeon route"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "time-safe",
+        "heading": "What to Do After the Abandoned Estate",
+        "intro": "Return to Lost Afterimage after finishing the 180 echoes, then choose “Enter the Time Safe.” This moves the route from the estate gate into the later dungeon stage.",
+        "paragraphs": [
+          "Do not look for the final reward immediately after the estate. The Time Safe is where the Araya encounter and later collection become relevant. Check that your current objective has moved forward before preparing a series of dungeon runs. The quest contact connects these stages, so returning to her is part of progression rather than an optional shortcut.",
+          "The later collection includes Thread of Past, Thread of Present, Thread of Future, Thread of Unsevered, 15 Time Safe Cores, and the Pinky Nursefather title. Keep the four Thread names separate: extra copies of one type do not stand in for another type. Use the full Araya guide for the farming plan, and compare the live turn-in requirements before spending saved resources."
+        ],
+        "links": [
+          {
+            "slug": "araya",
+            "label": "Araya Time Safe and material guide",
+            "description": "Plan the collection after the Lost Afterimage entry steps."
+          }
+        ]
+      },
+      {
+        "id": "route-checklist",
+        "heading": "Lost Afterimage Route Checklist",
+        "intro": "Use these checkpoints while playing. Finish the active stage before moving to the next entry option.",
+        "paragraphs": [
+          "The route is easier to follow when you separate finding the NPC, accepting the quest, clearing the estate, and entering Time Safe. If you return after a break, read the active objective first. That tells you which checkpoint to resume without repeating the whole opening route.",
+          "Before a group dungeon session, make sure each player meets the entry requirements and has reached the appropriate quest stage. A friend being ready for Time Safe does not replace your own prerequisites. Agree on whether the session is for the first clear or later materials, then use the matching guide and inventory checklist."
+        ],
+        "steps": [
+          {
+            "heading": "Find and prepare",
+            "description": "Enter the Gwynn's Shrine game, go to the back of Graveyard Island, and check Prestige 20 / Platinum I and your prestige's maximum level."
+          },
+          {
+            "heading": "Accept and enter",
+            "description": "Speak to Lost Afterimage about finding her moment. Interact again to enter the Abandoned Estate."
+          },
+          {
+            "heading": "Clear and return",
+            "description": "Finish 180 qualifying echoes, return to Lost Afterimage, and enter the Time Safe. Use the Araya guide for the remaining collection."
+          }
+        ]
+      },
+      {
+        "id": "common-problems",
+        "heading": "Lost Afterimage Not Working? Check These Steps",
+        "intro": "Check the game identity, prestige and level gates, selected dialogue, and current echo counter before searching for a new NPC location.",
+        "paragraphs": [
+          "If you cannot find her, confirm Graveyard Island and move toward its back. If she is present but the route does not start, check the listed starting requirements and the dialogue about finding her moment. If estate entry is missing after accepting, speak again and compare the active objective with the entry option.",
+          "If you are still seeing the estate stage, inspect the 180 counter. Fight a qualifying enemy and observe the change rather than assuming every nearby kill counts. If the counter is complete but the next route seems absent, return to Lost Afterimage before searching for a dungeon elsewhere. The next interaction is part of the sequence."
+        ],
+        "links": [
+          {
+            "slug": "trello",
+            "label": "Legacy Piece Trello guide",
+            "description": "Open the current quest reference and board."
+          },
+          {
+            "slug": "tier-list",
+            "label": "Legacy Piece tier list",
+            "description": "Compare loadouts for repeated clears."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Where is Lost Afterimage in Legacy Piece?",
+        "answer": "She is near the back of Graveyard Island in the current Gwynn's Shrine game. Confirm the NPC name and interaction prompt when you reach the rear of the island."
+      },
+      {
+        "question": "How do I get Lost Afterimage in Legacy Piece?",
+        "answer": "Lost Afterimage is a quest contact. Find her on Graveyard Island and select the dialogue about finding her moment to start the Araya route."
+      },
+      {
+        "question": "Which dialogue starts the quest?",
+        "answer": "Choose “I will find your moment.” Speak to her again and choose “Enter the Abandoned Estate” for the first entry step."
+      },
+      {
+        "question": "How many echoes does Lost Afterimage require?",
+        "answer": "The Abandoned Estate gate requires 180 qualifying echoes. Spider House Disciple and Time-Tangled Guardian are associated with the shared quest counter."
+      },
+      {
+        "question": "What do I do after completing the 180 echoes?",
+        "answer": "Return to Lost Afterimage and choose the Time Safe entry. The later Araya route continues through the dungeon and its material collection."
+      },
+      {
+        "question": "Why can I find the NPC but not enter?",
+        "answer": "Check Prestige 20 / Platinum I, maximum level for your prestige, and your active quest stage. The current quest card lists these prestige and level gates for starting and dungeon entry."
+      }
+    ],
+    "relatedSlugs": [
+      "araya",
+      "trello",
+      "tier-list",
+      "races"
+    ],
+    "lastReviewed": "2026-10-03"
+  },
+  {
+    "enabled": true,
+    "slug": "undead-fishman",
+    "pageType": "guide",
+    "navLabel": "Undead Fishman",
+    "title": "Legacy Piece Undead Fishman – How to Get the Race",
+    "description": "Legacy Piece Undead Fishman guide explaining the quest-linked Fishman progression route, unlock checks, race role, and what to verify before changing races.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "Legacy Piece Undead Fishman",
+      "lead": "Follow the quest-linked Legacy Piece Fishman progression toward Undead Fishman, check your current race stage, and avoid wasting rerolls before the route is complete."
+    },
+    "sections": [
+      {
+        "id": "quick-answer",
+        "heading": "How to Get Undead Fishman in Legacy Piece",
+        "intro": "Equip Fishman and talk to the Fishman Elder on Fishman Island. Complete the Undead Fishman quest, gather the evolution materials, and return to the Elder for the race unlock.",
+        "paragraphs": [
+          "Undead Fishman is a quest-linked race, so treating it as an ordinary reroll target misses the main route. Start by checking the race actually equipped on your character. Then choose the matching evolution objective at the Elder before farming its items. Quest progress and the final material collection are separate checkpoints.",
+          "The current race card supplies both the opening objective and the turn-in list. Use it alongside the material cards when deciding what to farm next. If you already have Fishman, preserve it while you work through this route. Changing races for a general tier recommendation before the unlock can remove the named prerequisite you still need."
+        ],
+        "links": [
+          {
+            "slug": "https://trello.com/c/jai5gX2q/642-undead-fishman",
+            "label": "Undead Fishman race card",
+            "description": "Read the Fishman Elder route and listed effects."
+          },
+          {
+            "slug": "races",
+            "label": "Legacy Piece races guide",
+            "description": "Compare quest-linked races with ordinary race choices."
+          }
+        ],
+        "eyebrow": "Last reviewed: October 3, 2026"
+      },
+      {
+        "id": "fishman-progression",
+        "heading": "Fishman to Ancient Fishman and Undead Fishman",
+        "intro": "Fishman, Ancient Fishman, and Undead Fishman belong to quest-linked progression. The Undead Fishman card names base Fishman as its prerequisite; it does not list Ancient Fishman as a required earlier stage.",
+        "paragraphs": [
+          "That distinction matters when planning a farm. Do not assume the three names form one mandatory sequence just because they appear together in a race roster. Read the evolution you want and select its own quest. The Ancient Fishman and Undead Fishman materials have similar names, but an Ancient Scale is not an Undead Scale.",
+          "If you searched for the Ancient Fishman race in Legacy Piece while trying to unlock Undead Fishman, check which destination you intended. The names identify different race entries. A guide about one evolution should not become the material checklist for the other. Use the Elder's active objective and your inventory labels to keep them apart."
+        ]
+      },
+      {
+        "id": "requirements",
+        "heading": "Undead Fishman Requirements",
+        "intro": "The opening quest asks for five Fishman Captain defeats and three Undead Fishman Scales. The final evolution uses 20 Undead Fishman Scales, five Undead Fishman Cores, 100 Dreadtide Fangs, and 50 Dreadtide Hearts.",
+        "paragraphs": [
+          "Talk to the Elder with Fishman equipped before building your farming plan. The Scale reference ties drops to accepting the Undead quest, and the Core reference places its drops after quest completion. This makes the order important: first open the route, then complete the initial objective, then finish the later collection.",
+          "Scales and Cores are linked to Fishman Captain, while the Dreadtide material cards identify Dreadtide Revenant as their source. Focus on the missing item rather than repeating whichever boss you fought most recently. Check the relevant material card and active stage when a farm is not producing the item you need."
+        ],
+        "table": {
+          "caption": "Undead Fishman unlock checklist",
+          "columns": [
+            "Stage",
+            "Required check",
+            "Purpose"
+          ],
+          "rows": [
+            [
+              "Starting race",
+              "Fishman equipped",
+              "Open the Fishman Elder route"
+            ],
+            [
+              "Quest objective",
+              "5 Fishman Captains; 3 Undead Fishman Scales",
+              "Complete the initial quest"
+            ],
+            [
+              "Evolution materials",
+              "20 Undead Fishman Scales; 5 Undead Fishman Cores",
+              "Prepare the final collection"
+            ],
+            [
+              "Dreadtide materials",
+              "100 Dreadtide Fangs; 50 Dreadtide Hearts",
+              "Complete the remaining turn-in"
+            ],
+            [
+              "Finish",
+              "Return to Fishman Elder",
+              "Exchange the required materials for the race"
+            ]
+          ]
+        },
+        "links": [
+          {
+            "slug": "https://trello.com/c/SSTKadVG/834-undead-fishman-scale",
+            "label": "Undead Fishman Scale reference",
+            "description": "Check the quest condition and required totals."
+          },
+          {
+            "slug": "https://trello.com/c/b3l312XD/835-undead-fishman-core",
+            "label": "Undead Fishman Core reference",
+            "description": "Check when the Core farm becomes available."
+          }
+        ]
+      },
+      {
+        "id": "race-role",
+        "heading": "What Undead Fishman Does for a Build",
+        "intro": "The race card lists lifesteal, damage bonus, HP regeneration, and damage reduction. Its Undying Depths passive adds Soul shards and a conditional survival effect.",
+        "paragraphs": [
+          "The listed base effects are 12% lifesteal, 15% damage bonus, 6 HP regeneration per second, and 15% damage reduction. Undying Depths has three Soul shards, each adding 8% lifesteal. With all three present, a lethal blow shatters them and restores 25% of maximum HP; a shattered shard returns every 45 seconds.",
+          "Those effects make sustain and repeated fight completion useful reasons to consider the race. Test how often you can finish a rotation and recover between dangerous attacks. A survival effect is conditional, so do not plan every encounter as if it were always available. Watch the shard state and keep a defensive option for a bad opening."
+        ],
+        "links": [
+          {
+            "slug": "tier-list",
+            "label": "Compare Legacy Piece build roles",
+            "description": "Choose a race around the attacks and fights you use."
+          },
+          {
+            "slug": "traits",
+            "label": "Legacy Piece traits guide",
+            "description": "Review complementary passive choices."
+          },
+          {
+            "slug": "clans",
+            "label": "Legacy Piece clans guide",
+            "description": "Compare the remaining build slot."
+          }
+        ]
+      },
+      {
+        "id": "reroll-warning",
+        "heading": "Do Not Reroll a Quest-Linked Fishman Race Too Early",
+        "intro": "Keep the Fishman prerequisite while working on the evolution. A reroll changes the race you are relying on for this unlock.",
+        "paragraphs": [
+          "Before spending a Race Reroll, check whether the next objective still names your equipped race. A general damage recommendation is less useful if changing to it interrupts the quest you are trying to finish. Complete the planned unlock first, then decide whether another race suits your long-term build.",
+          "Do not rely on a code reward as a guaranteed way to recover the same race afterward. Reroll resources help you make another attempt; they do not replace an evolution quest or promise a particular result. Keep the codes guide separate from your route checklist so a resource claim does not become an assumption about unlock completion."
+        ]
+      },
+      {
+        "id": "common-problems",
+        "heading": "Common Undead Fishman Unlock Problems",
+        "intro": "Check the equipped race, chosen evolution quest, five-Captain counter, and exact material names before repeating the farm.",
+        "paragraphs": [
+          "If the Elder does not offer the expected route, inspect the equipped race and current quest stage. If the counter is unfinished, focus on eligible Fishman Captain defeats and the quest's Undead Scales. If the Core is missing, finish the opening quest and then use its material reference rather than assuming every earlier kill could supply it.",
+          "If the final exchange is unavailable, compare all four material totals with your inventory. Look carefully for Ancient versus Undead names, and for Fang versus Heart. One full stack does not compensate for another missing ingredient. Return to the Elder after the collection is ready rather than treating a completed opening quest as the final reward."
+        ],
+        "links": [
+          {
+            "slug": "trello",
+            "label": "Legacy Piece Trello guide",
+            "description": "Open the current race and material references."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do I get Undead Fishman in Legacy Piece?",
+        "answer": "Equip Fishman, talk to Fishman Elder on Fishman Island, complete the Undead quest, gather its evolution materials, and return to the Elder for the unlock."
+      },
+      {
+        "question": "Can I get Undead Fishman with ordinary race rerolls?",
+        "answer": "Treat it as a quest-linked evolution rather than a normal reroll target. The route names Fishman as its starting race and has a quest and material exchange."
+      },
+      {
+        "question": "Do I need Ancient Fishman before Undead Fishman?",
+        "answer": "The current Undead Fishman card requires base Fishman. It does not list Ancient Fishman as a prerequisite, so follow the Undead objective rather than assuming a mandatory three-race sequence."
+      },
+      {
+        "question": "What materials does the evolution need?",
+        "answer": "The final collection is 20 Undead Fishman Scales, five Undead Fishman Cores, 100 Dreadtide Fangs, and 50 Dreadtide Hearts. Complete the opening quest before the final exchange."
+      },
+      {
+        "question": "What does the Undead Fishman race do?",
+        "answer": "It supplies lifesteal, damage bonus, HP regeneration, and damage reduction. Undying Depths adds Soul shards with a conditional lethal-hit survival effect."
+      },
+      {
+        "question": "Should I reroll Fishman while doing the quest?",
+        "answer": "Keep the required race while completing the route. Check the active objective before changing races so you do not remove the prerequisite for your planned unlock."
+      }
+    ],
+    "relatedSlugs": [
+      "races",
+      "tier-list",
+      "traits",
+      "clans",
+      "trello"
+    ],
+    "lastReviewed": "2026-10-03"
   }
 ]

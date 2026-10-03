@@ -8,7 +8,7 @@ import { siteSkin } from "@/config/skin";
 import { scopedTemplateCss } from "@/lib/fixed-template/render";
 import { isFixedTemplate } from "@/lib/fixed-template/mode";
 import { themes } from "@/config/themes";
-import { enabledLegalPages, visibleCorePages } from "@/content/registry";
+import { enabledCorePages, enabledLegalPages, visibleCorePages } from "@/content/registry";
 import { fontFaceCss } from "@/lib/fonts";
 import { rootMetadata } from "@/lib/seo";
 import "./globals.css";
@@ -16,6 +16,7 @@ import "./globals.css";
 export const metadata = rootMetadata();
 
 const navLinks = visibleCorePages.map((page) => ({ label: page.navLabel, slug: page.slug }));
+const footerLinks = enabledCorePages.map((page) => ({ label: page.navLabel, slug: page.slug }));
 const legalLinks = enabledLegalPages.map((page) => ({ label: page.navLabel, slug: page.slug }));
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
@@ -48,7 +49,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         <a href="#main-content" className="skip-link">Skip to content</a>
         <SiteHeader links={navLinks} />
         <div id="main-content">{children}</div>
-        <SiteFooter coreLinks={navLinks} legalLinks={legalLinks} />
+        <SiteFooter coreLinks={footerLinks} legalLinks={legalLinks} />
         <Script
           id="adsterra-social-bar"
           src="https://pl31604678.profitableratecpmnetwork.com/fa/34/89/fa348957ebd5d127d2f37e0f271ed3f0.js"
