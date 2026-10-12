@@ -588,6 +588,11 @@
             "slug": "clans",
             "label": "Joestar in the clans guide",
             "description": "Understand why this clan gates the Dio route."
+          },
+          {
+            "slug": "defy-fate",
+            "label": "Defy Fate guide",
+            "description": "Learn how Joestar Resolve and Defy Fate work during the Dio quest."
           }
         ]
       },
@@ -1943,6 +1948,11 @@
             "slug": "fruits",
             "label": "Legacy Piece fruits",
             "description": "Review the current four-fruit roster."
+          },
+          {
+            "slug": "wiki",
+            "label": "Legacy Piece Wiki",
+            "description": "Browse the dedicated guide hub for current Legacy Piece systems and quests."
           }
         ]
       },
@@ -2313,6 +2323,11 @@
             "slug": "https://trello.com/c/11CYn7jK/704-realm-beyond-heaven-key",
             "label": "Realm Beyond Heaven Key reference",
             "description": "Check the raid entry item and its sources."
+          },
+          {
+            "slug": "realm-beyond-heaven",
+            "label": "Realm Beyond Heaven guide",
+            "description": "Follow the dungeon key, Chrono Seal, and Realm progression steps."
           }
         ]
       },
@@ -2755,5 +2770,1161 @@
       "trello"
     ],
     "lastReviewed": "2026-10-03"
+  },
+  {
+    "enabled": true,
+    "slug": "wild-hunt",
+    "pageType": "guide",
+    "navLabel": "Wild Hunt",
+    "title": "Legacy Piece Wild Hunt Guide – Quest, Souls & Coffin Route",
+    "description": "Unlock Wild Hunt in Legacy Piece: four Memories, 1,000 Souls, Graveyard Island, Coffin Escort, Pearl methods, and the later crafting route.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "Legacy Piece Wild Hunt Guide",
+      "lead": "Start at the Wild Hunt NPC on Graveyard Island. Collect four Memories, finish the Souls objectives, escort the Coffin, and prepare the Pearl before continuing the weapon quest."
+    },
+    "sections": [
+      {
+        "id": "quick-answer",
+        "heading": "How to Get Wild Hunt in Legacy Piece",
+        "intro": "Wild Hunt is a weapon unlock built around a long quest chain: Memories, Souls, Coffin Escort, Pearl, crafting materials, boss objectives, and a later portal challenge.",
+        "paragraphs": [
+          "Begin by speaking to the Wild Hunt NPC rather than farming a material from the end of the route. Keep the quest tab open and use the current objective to choose your next activity. The first collection sends you across several islands; later stages test both combat strength and movement. A strong boss build helps, but it does not replace the escort or crafting steps.",
+          "Plan this as several sessions. Finish the island collection, combine eligible combat objectives with Souls, then approach the escort with time to learn its hazards. Fishing belongs to the material part of the route. Save what the quest requests, and return to the NPC between stages so the next task is visible before you commit to another grind."
+        ],
+        "steps": [
+          {
+            "heading": "Open the quest on Graveyard Island",
+            "description": "Talk to the Wild Hunt NPC and read the first objective."
+          },
+          {
+            "heading": "Complete the Memories and Souls stages",
+            "description": "Visit the four named islands, then combine boss and contract activity with the 1,000 Souls target."
+          },
+          {
+            "heading": "Escort, collect, and continue crafting",
+            "description": "Complete the Coffin route, obtain a Pearl, and follow the remaining material and combat objectives."
+          }
+        ]
+      },
+      {
+        "id": "npc-location",
+        "heading": "Where to Find the Wild Hunt NPC",
+        "intro": "The Wild Hunt NPC is on Graveyard Island. The Coffin interaction used later in the route is nearby.",
+        "paragraphs": [
+          "Use the NPC as your return point throughout the chain. Before leaving, read the stage name and check whether the objective is a collection, an activity counter, or an interaction. Those require different actions, and spending time on the wrong one can leave your progress unchanged even after a successful fight.",
+          "Keep a simple note of the task you accepted before changing islands. When returning after a long farm, compare your inventory with that task rather than assuming any new drop is the required item. If you are looking for the Coffin immediately after starting, complete the preceding objectives first and check the NPC dialogue again."
+        ]
+      },
+      {
+        "id": "memories",
+        "heading": "Collect the Four Wild Hunt Memories",
+        "intro": "Collect a Memory from Legacy Island, Jujutsu Island, Hollow Island, and Seventh Company Island.",
+        "paragraphs": [
+          "Use the quest tab to identify the collection target on each island. Work through the islands as a checklist and confirm that the game registers each Memory before travelling onward. Repeating the same island visit is less useful than checking which named entry is still missing.",
+          "Keep all four Memories for the later material stage. Do not discard them simply because the first collection objective has finished. After each pickup, inspect both the inventory and quest display; this makes it easier to distinguish a missed collection from a later turn-in requirement."
+        ],
+        "table": {
+          "caption": "Wild Hunt Memory checklist",
+          "columns": [
+            "Island",
+            "Before leaving"
+          ],
+          "rows": [
+            [
+              "Legacy Island",
+              "Collect its Memory and inspect progress"
+            ],
+            [
+              "Jujutsu Island",
+              "Collect its Memory and inspect progress"
+            ],
+            [
+              "Hollow Island",
+              "Collect its Memory and inspect progress"
+            ],
+            [
+              "Seventh Company Island",
+              "Collect its Memory and preserve the set"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "souls",
+        "heading": "How to Farm 1,000 Souls",
+        "intro": "The Souls stage asks for 1,000 Souls. Boss activity and Legendary or Mythic Contracts contribute to this part of the route.",
+        "paragraphs": [
+          "The quest also involves level 25,000 boss activity and other combat objectives. Combine compatible tasks instead of treating every counter as a separate farm. Check your Souls total before a run and immediately after it: the useful measure is the progress that your character actually receives.",
+          "Pick repeatable encounters that you can finish safely. A theoretically faster target is poor value if repeated deaths or failed attempts consume most of your session. Rotate into contracts when they fit your active objective, and review any outstanding boss or mode requirement before returning for the next stage. Reaching the Souls total alone is not a substitute for the other listed tasks."
+        ]
+      },
+      {
+        "id": "coffin",
+        "heading": "How to Complete the Wild Hunt Coffin Escort",
+        "intro": "After the Souls stage, return to the Coffin near the Wild Hunt NPC and follow the marked escort route.",
+        "paragraphs": [
+          "Watch the red danger areas before moving. Carrying the Coffin is a navigation challenge: take a clear route through the next hazard rather than rushing straight ahead. Give yourself room to see the path and avoid obscuring the warning marks with a crowded camera angle.",
+          "Later parts introduce Dullahan pressure, including a red warning line. Slow down when a new hazard appears, observe how it crosses your route, and move through a safe opening. If an attempt fails, inspect the stage offered when you restart; the escort saves map progress, so focus on the segment that remains rather than assuming every earlier segment must be repeated.",
+          "A useful practice routine is to learn where the danger appears before trying to make the entire segment fast. Stop treating the escort like a damage race. Improving your build may help with the surrounding quest, but careful movement is what makes this part more consistent."
+        ]
+      },
+      {
+        "id": "pearl",
+        "heading": "How to Get the Pearl for Wild Hunt",
+        "intro": "The Pearl has two routes: 1,000 fishing catches or 25 Dullahan defeats. Dullahan is near the Wild Hunt NPC on Graveyard Island.",
+        "paragraphs": [
+          "Choose the method that fits what you can repeat. Fishing also supports the later material collection; boss farming suits a character that can finish Dullahan reliably. Compare your actual time per successful fight with the time you are willing to spend fishing before deciding which approach to concentrate on.",
+          "The crafting route also uses Tidal Silk and Sea Glass. Keep these fishing materials, the Pearl, and your Memories ready for the Wandering NPC stage on Seventh Company Island. Read the crafting prompt before starting its rhythm challenge. Budget extra fishing time if you need another attempt, and use the controls shown by your device instead of assuming every platform has the same inputs."
+        ]
+      },
+      {
+        "id": "checklist",
+        "heading": "Wild Hunt Quest Checklist",
+        "intro": "Use this order to keep the unlock moving without mixing up the collection, escort, and combat stages.",
+        "paragraphs": [
+          "After crafting, follow the requested boss list and deal with the reflections that appear after those fights. Return to the Wild Hunt NPC for the portal stage. Treat the portal and final collection as a separate preparation checkpoint: organise your loadout, consider a group, and inspect the final requirements before spending saved resources."
+        ],
+        "table": {
+          "caption": "Wild Hunt progression checkpoints",
+          "columns": [
+            "Stage",
+            "What to finish"
+          ],
+          "rows": [
+            [
+              "Start",
+              "Accept the Wild Hunt NPC quest"
+            ],
+            [
+              "Memories",
+              "Collect the four island Memories"
+            ],
+            [
+              "Souls",
+              "Reach 1,000 and finish associated combat tasks"
+            ],
+            [
+              "Coffin",
+              "Complete the marked escort segments"
+            ],
+            [
+              "Pearl and crafting",
+              "Prepare Pearl, Memories, Tidal Silk, and Sea Glass"
+            ],
+            [
+              "Later combat",
+              "Follow the boss/reflection list and portal objectives"
+            ],
+            [
+              "Completion",
+              "Return with the final requested collection"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "mistakes",
+        "heading": "Common Wild Hunt Quest Problems",
+        "intro": "When a counter stalls, check the active stage, target type, and inventory before repeating a long activity.",
+        "paragraphs": [
+          "A Coffin problem calls for checking the escort stage and hazards. A Pearl problem calls for checking the chosen collection route. A Souls problem calls for comparing progress before and after an eligible activity. Diagnose the specific counter instead of switching randomly between all three.",
+          "For later combat, make sure your damage and survival are reliable over repeated attempts. Review race and trait roles if the build struggles, and use the quest list to determine the next boss. Keep collection items until the relevant exchange is finished; unlocking a new stage does not mean every older material has become disposable."
+        ],
+        "links": [
+          {
+            "slug": "haki",
+            "label": "Prepare your Haki progression",
+            "description": "Review combat unlocks before harder quest stages."
+          },
+          {
+            "slug": "wiki",
+            "label": "Open the guide directory",
+            "description": "Find a focused guide for your next objective."
+          },
+          {
+            "slug": "https://roonby.com/2026/10/07/legacy-piece-wild-hunt-guide-how-to-unlock-get-all-materials/",
+            "label": "Wild Hunt walkthrough",
+            "description": "Read the island, escort, and crafting route."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Where is the Wild Hunt NPC?",
+        "answer": "On Graveyard Island. Return there between quest stages and for the nearby Coffin interaction."
+      },
+      {
+        "question": "How many Souls does Wild Hunt need?",
+        "answer": "The Souls stage asks for 1,000 Souls alongside its other combat objectives."
+      },
+      {
+        "question": "Which islands have Wild Hunt Memories?",
+        "answer": "Legacy Island, Jujutsu Island, Hollow Island, and Seventh Company Island."
+      },
+      {
+        "question": "Where does the Wild Hunt Coffin Escort start?",
+        "answer": "Interact with the Coffin near the Wild Hunt NPC after completing the preceding stage."
+      },
+      {
+        "question": "How do I get the Wild Hunt Pearl?",
+        "answer": "Use the fishing route of 1,000 catches or the Dullahan route of 25 defeats."
+      },
+      {
+        "question": "Does a failed Coffin segment restart everything?",
+        "answer": "Map progress is saved. Check the offered restart stage and concentrate on the segment you still need."
+      },
+      {
+        "question": "Is the Pearl the final Wild Hunt step?",
+        "answer": "No. Crafting, later boss objectives, a portal challenge, and the final collection follow."
+      }
+    ],
+    "relatedSlugs": [
+      "haki",
+      "races",
+      "traits",
+      "tier-list",
+      "trello"
+    ],
+    "lastReviewed": "2026-10-13"
+  },
+  {
+    "enabled": true,
+    "slug": "defy-fate",
+    "pageType": "guide",
+    "navLabel": "Defy Fate",
+    "title": "Legacy Piece Defy Fate – Joestar Awakening & Dio Quest",
+    "description": "Learn how Joestar Resolve triggers Defy Fate, survive five full awakenings in combat, and time Special Boss kills for the Legacy Piece Dio quest.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "Legacy Piece Defy Fate",
+      "lead": "Defy Fate is the Joestar clan awakening powered by Inherited Resolve. Build Resolve from enemy damage, survive the full awakening, and use its active window for the matching Dio objectives."
+    },
+    "sections": [
+      {
+        "id": "quick-answer",
+        "heading": "What Is Defy Fate in Legacy Piece?",
+        "intro": "Defy Fate is Joestar’s awakening, triggered by the Inherited Resolve passive. It is part of the early Dio Bloodline Trial objectives.",
+        "paragraphs": [
+          "Every 5% of Max HP taken as enemy damage grants 1 Resolve. At 5 Resolve, the awakening activates for 60 seconds. Its bonuses are +20% damage, +15% damage reduction, and +8% lifesteal. After it ends, Resolve enters cooldown before another cycle can begin.",
+          "The quest distinguishes between surviving a complete awakening and defeating an eligible boss while the awakening is active. Those are separate jobs. Watching the activation alone is not the same as finishing the survival task, and a kill after the effect expires is not an active-window kill."
+        ],
+        "table": {
+          "caption": "Defy Fate at a glance",
+          "columns": [
+            "Mechanic",
+            "Value or condition"
+          ],
+          "rows": [
+            [
+              "Clan passive",
+              "Joestar — Inherited Resolve"
+            ],
+            [
+              "Resolve gain",
+              "1 per 5% Max HP taken from enemy damage"
+            ],
+            [
+              "Activation",
+              "5 Resolve"
+            ],
+            [
+              "Duration",
+              "60 seconds"
+            ],
+            [
+              "Quest uses",
+              "Full awakening survival; active-window Special Boss kills"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "how-it-triggers",
+        "heading": "How to Activate Defy Fate",
+        "intro": "Keep the Joestar clan and take enemy damage to build the Resolve meter. The awakening starts when the meter reaches its threshold.",
+        "paragraphs": [
+          "Use an encounter whose incoming damage you understand. Letting a stronger enemy hit you can fill the meter quickly, but it can also kill you before you gain any useful quest progress. Start with enough health to survive the opening, observe the meter, then switch to a safer combat rhythm when the awakening appears.",
+          "Do not confuse damage you deal with damage you take. Inherited Resolve is tied to incoming enemy damage, so attacking without receiving qualifying hits does not address that trigger. Also avoid planning around environmental damage or unrelated self-damage; the passive specifies enemy damage.",
+          "Watch the actual buff or meter rather than relying only on a stopwatch. If you are expecting another activation immediately after the first, check the Resolve cooldown. Give the passive time to become available again before deliberately taking the next set of hits. Keep the activation and recovery phases separate in your routine."
+        ]
+      },
+      {
+        "id": "five-awakenings",
+        "heading": "How to Survive 5 Full Defy Fate Awakenings",
+        "intro": "For Bloodline Trial 1, survive five complete awakenings while in PvP or boss combat. Each awakening must run through its full duration.",
+        "paragraphs": [
+          "Accept the matching quest first. Trigger Defy Fate, stay alive through the entire active window, and inspect the quest counter when it ends. Repeat only after the passive has recovered. Think of the objective as five successful combat cycles rather than five quick buff flashes.",
+          "Choose a boss encounter that you can sustain without immediately losing the target or your own health. During the awakening, prioritise survival and controlled combat. Avoid spending the remaining window in travel, menus, or an unrelated activity. The task specifically asks for a full awakening in combat, so make that condition easy to track.",
+          "Record the counter after each completed cycle. If the first attempt does not register, stop and inspect the quest stage, clan, and combat condition before repeating it four more times. A short check after one attempt can save an entire session spent reproducing the same problem."
+        ],
+        "steps": [
+          {
+            "heading": "Confirm Bloodline Trial 1 is active",
+            "description": "Read the five full awakenings objective before entering combat."
+          },
+          {
+            "heading": "Build Resolve and survive the full effect",
+            "description": "Use a manageable boss or PvP encounter and remain alive through the awakening."
+          },
+          {
+            "heading": "Check the counter, recover, and repeat",
+            "description": "Wait for Resolve to become available, then complete another cycle until five count."
+          }
+        ]
+      },
+      {
+        "id": "dio-quest",
+        "heading": "Defy Fate in the Dio Quest",
+        "intro": "The Dio route uses Defy Fate for the awakening survival stage and the following Special Boss stage.",
+        "paragraphs": [
+          "Once the survival objective is finished, return to the Dio dialogue and confirm the next task. Do not assume the same combat routine will automatically satisfy it. The next objective cares about which bosses you defeat and whether the awakening is active at the moment of defeat.",
+          "Bloodline Trial 2 requires 25 level 10,000+ Special Boss defeats while Defy Fate is active. Use that classification and level requirement when choosing a target. Completing these Defy Fate stages still leaves the later base-style route; follow the dedicated Dio guide for the rest of the unlock."
+        ],
+        "links": [
+          {
+            "slug": "dio",
+            "label": "Full Dio and The World guide",
+            "description": "Continue the base quest after the Defy Fate stages."
+          },
+          {
+            "slug": "clans",
+            "label": "Joestar and clan guide",
+            "description": "Review the bloodline alongside your build."
+          },
+          {
+            "slug": "https://trello.com/c/QKJwMmdd",
+            "label": "Dio Bloodline Trial card",
+            "description": "Read the awakening and Special Boss quest conditions."
+          }
+        ]
+      },
+      {
+        "id": "boss-kills",
+        "heading": "How to Get Boss Kills While Defy Fate Is Active",
+        "intro": "Finish an eligible Special Boss while the awakening is still active. The final defeat must fit inside that window.",
+        "paragraphs": [
+          "Plan the enemy health and your damage together. If you spend the whole awakening building damage against a fresh target and the effect ends before the kill, that attempt does not satisfy the timing condition. Prepare the encounter so you can finish reliably after activation without allowing the enemy to overwhelm you.",
+          "Keep your strongest available damage sequence ready for the window. Move into range, verify the buff is active, then commit to the attacks that finish the target. Avoid using the early seconds on travelling to another island or reorganising your loadout.",
+          "After the defeat, inspect the counter before another summon. If it stays unchanged, first check the boss category and level, then the buff timing. A normal enemy kill or an expired awakening should not be treated as evidence that the entire quest is broken. Use one repeatable target until you know your timing works."
+        ]
+      },
+      {
+        "id": "problems",
+        "heading": "Why Is My Defy Fate Quest Not Counting?",
+        "intro": "Check the active Bloodline Trial, Joestar clan, full-duration survival, and eligible boss timing.",
+        "paragraphs": [
+          "For the five-awakening task, ask whether you survived the entire effect in combat. For the boss task, ask whether the target was a level 10,000+ Special Boss and whether Defy Fate was still running when it died. These checks address different counters, so use the one named by your current objective.",
+          "If the next activation never appears, inspect Resolve availability and incoming enemy damage. If the next quest never appears, return to Dio and read the dialogue. Change one part of your attempt at a time; changing the boss, clan, loadout, and quest stage together makes it harder to see what fixed the problem.",
+          "Before a long session, take note of your current counter and the target you plan to use. After an unsuccessful attempt, compare the conditions with the objective text. This is especially useful in a group fight, where the visible buff, target category, and moment of defeat can be easy to miss."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What clan gives Defy Fate?",
+        "answer": "Joestar, through its Inherited Resolve passive."
+      },
+      {
+        "question": "How do I activate Defy Fate?",
+        "answer": "Take qualifying enemy damage to build Resolve. Every 5% Max HP grants 1 Resolve, and activation occurs at 5."
+      },
+      {
+        "question": "How long does Defy Fate last?",
+        "answer": "The awakening lasts 60 seconds, followed by Resolve cooldown."
+      },
+      {
+        "question": "How do I survive five full awakenings?",
+        "answer": "Keep Bloodline Trial 1 active and survive five complete awakening cycles in PvP or boss combat."
+      },
+      {
+        "question": "Why did a boss kill not count?",
+        "answer": "Check that it was an eligible level 10,000+ Special Boss and that Defy Fate was active when it died."
+      },
+      {
+        "question": "Does Defy Fate unlock The World by itself?",
+        "answer": "No. It satisfies specific early Dio objectives; the remaining base-style quests and final unlock still follow."
+      }
+    ],
+    "relatedSlugs": [
+      "dio",
+      "clans",
+      "the-world-over-heaven",
+      "tier-list"
+    ],
+    "lastReviewed": "2026-10-13"
+  },
+  {
+    "enabled": true,
+    "slug": "realm-beyond-heaven",
+    "pageType": "guide",
+    "navLabel": "Realm Beyond",
+    "title": "Legacy Piece Realm Beyond Heaven – Key & Chrono Seals",
+    "description": "Enter Realm Beyond Heaven in Legacy Piece, get the dungeon key, use your own Time Stop on Chrono Seals, and follow the DIO OH raid objectives.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "Legacy Piece Realm Beyond Heaven",
+      "lead": "Equip The World and use a Realm Beyond Heaven Key. Inside the raid, follow the announced Chrono Seal and interact during your own Time Stop to advance the Earthly Proofs objective."
+    },
+    "sections": [
+      {
+        "id": "quick-answer",
+        "heading": "How to Enter Realm Beyond Heaven",
+        "intro": "Equip The World and use a Realm Beyond Heaven Key from your inventory to host the raid. Players can also join a portal at The Gatekeeper in Jujutsu Academy.",
+        "paragraphs": [
+          "The Realm is the dungeon part of the Over Heaven progression. Owning a key and being ready for the correct proof are separate checks. Before entering, make sure the style is equipped and read your current Earthly Proofs objective so you know whether this run is for seals, a boss reward, or later collection.",
+          "The raid allows up to four players, and each joining player needs their own key. Arrange that before opening the portal rather than assuming a host key covers the whole group. Practice The World controls on your device before spending an entry, particularly the Time Stop you will use for the seal mechanic."
+        ],
+        "steps": [
+          {
+            "heading": "Prepare the style and quest",
+            "description": "Equip The World and confirm the relevant Earthly Proof is active."
+          },
+          {
+            "heading": "Prepare a key for each player",
+            "description": "Use your inventory key to host or join through The Gatekeeper at Jujutsu Academy."
+          },
+          {
+            "heading": "Follow the Realm objective",
+            "description": "Read the seal announcement and use your own Time Stop for the interaction."
+          }
+        ]
+      },
+      {
+        "id": "key",
+        "heading": "How to Get a Realm Beyond Heaven Key",
+        "intro": "Earthly Proofs 2 awards a Realm Beyond Heaven Key after you turn in five Heavenly Diaries. Dio is also a key source after that proof is complete.",
+        "paragraphs": [
+          "The quest reward provides a clear first entry through the upgrade route. Get the diaries requested by Dio, finish the proof, and inspect your inventory before travelling to a portal. A Heavenly Diary is part of the preceding collection; it is not itself the dungeon entry item.",
+          "For repeat entries, use the Realm Beyond Heaven Key card to choose a current source. Keep the proof prerequisite in mind when farming Dio. A drop pool listing does not mean every character can obtain that item at every stage, and clearing a boss is not a guarantee of receiving a key.",
+          "Budget repeat runs around the item you actually own rather than an assumed drop rate. Set aside enough entry items for your planned group, and avoid consuming the last key while you are still experimenting with controls. When a farm produces no key, check progression eligibility before switching to a harder boss."
+        ],
+        "links": [
+          {
+            "slug": "https://trello.com/c/11CYn7jK/704-realm-beyond-heaven-key",
+            "label": "Realm Beyond Heaven Key card",
+            "description": "Read the entry item, progression gates, and current sources."
+          }
+        ]
+      },
+      {
+        "id": "requirements",
+        "heading": "Realm Beyond Heaven Requirements",
+        "intro": "The dungeon needs The World equipped and a Realm Beyond Heaven Key. The Over Heaven quest entry separately requires the base style enhanced to +10.",
+        "paragraphs": [
+          "Inspect the equipped style rather than a similarly named outfit or accessory. The World is the combat style required for the raid mechanism. Enhancing another item does not meet the Over Heaven route prerequisite, and owning a Dio-themed cosmetic does not replace the style.",
+          "Check your proof before entry. Earthly Proofs 3 is the Chrono Seal task; the next proof targets Echo of the Rewritten Hour. Organise the group around the task each player needs. Someone farming a final boss reward may have a different objective from someone entering to complete the seal counter."
+        ],
+        "table": {
+          "caption": "Realm entry and quest checks",
+          "columns": [
+            "Check",
+            "What to prepare"
+          ],
+          "rows": [
+            [
+              "Style",
+              "The World equipped"
+            ],
+            [
+              "Entry item",
+              "A Realm Beyond Heaven Key for each entrant"
+            ],
+            [
+              "Over Heaven route",
+              "Base The World enhanced to +10"
+            ],
+            [
+              "Seal objective",
+              "Earthly Proofs 3 active"
+            ],
+            [
+              "Echo objective",
+              "Earthly Proofs 4 active"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "chrono-seals",
+        "heading": "How the Chrono Seals Work",
+        "intro": "Earthly Proofs 3 asks you to still the Chrono Seal three times inside your own Time Stop. The seal objective becomes available at wave 2.",
+        "paragraphs": [
+          "At wave 2, read the chat announcement for the required seal number. There are four numbered seals around the map, but the objective does not ask you to choose any convenient one. Find the announced number first, move into interaction range, and prepare your own The World Time Stop.",
+          "Activate Time Stop, then interact with the announced seal while your effect is running. Another player stopping time does not satisfy the requirement for your own action. Likewise, reaching the correct location after your window has expired does not meet the timing check.",
+          "Use the next announcement to decide what to do after each interaction. The task asks for three successful seal events; do not replace that with a plan to click three arbitrary crystals. Inspect your proof counter after the event and stay aligned with the raid’s next prompt.",
+          "If you are playing with a group, coordinate movement without assuming someone else can complete your personal timing condition. Give each player room to see the announced number and use their own ability. The useful routine is announce, locate, prepare, stop time, interact, and check progress."
+        ]
+      },
+      {
+        "id": "waves",
+        "heading": "Realm Beyond Heaven Waves and Bosses",
+        "intro": "The Realm has three waves. The Chrono Seal interaction begins at wave 2, and Dio Heaven Ascension is the wave 3 boss.",
+        "paragraphs": [
+          "Follow the live challenge prompts as you clear the encounter. Completing a seal event advances the Realm challenge, but it does not end the entire run. Keep cooldowns and positioning ready for the next combat stage instead of opening menus as soon as a seal counter changes.",
+          "Separate the raid clear from a particular boss reward. Winning a run is useful progress, but a proof that names a specific item still requires that item. Read the reward and inventory messages before deciding whether you can return to Dio or need another entry.",
+          "For a repeatable group strategy, agree on who is ready to use Time Stop, where the currently announced seal is, and when the group should resume combat. Keep enough health for the later boss. A rushed seal attempt that causes a wipe can cost more time than a short pause to understand the next prompt."
+        ]
+      },
+      {
+        "id": "dio-oh",
+        "heading": "How Realm Beyond Heaven Connects to The World Over Heaven",
+        "intro": "Realm Beyond Heaven supplies the dungeon stages of the Earthly Proofs route. It does not replace the full The World Over Heaven upgrade checklist.",
+        "paragraphs": [
+          "After the seal proof, the route asks for Echo of the Rewritten Hour from Dio Heaven Ascension while the relevant quest is active. Read that exact name in your objective and distinguish it from the other boss drops. Do not assume a similarly named material or an earlier clear completes the proof.",
+          "The later upgrade also uses Realm rewards and a final turn-in. Once your dungeon objective is complete, return to the dedicated Over Heaven guide for the complete collection and NPC sequence. That keeps your next action clear: another raid, a separate material farm, or the final exchange."
+        ],
+        "links": [
+          {
+            "slug": "the-world-over-heaven",
+            "label": "Complete The World Over Heaven route",
+            "description": "Continue from dungeon progress to the final upgrade."
+          },
+          {
+            "slug": "dio",
+            "label": "Unlock base The World",
+            "description": "Finish the prerequisite if you do not own the style yet."
+          }
+        ]
+      },
+      {
+        "id": "problems",
+        "heading": "Chrono Seal Not Counting? Check These Steps",
+        "intro": "Check wave 2, the announced seal number, your active proof, The World, and your own Time Stop.",
+        "paragraphs": [
+          "If no seal prompt is available, inspect the wave before wandering between crystals. If the wrong seal is selected, return to the announced number. If the interaction window has ended, wait until your own ability is ready and try the mechanic under the correct conditions.",
+          "When the Echo objective stalls, inspect Earthly Proofs 4 rather than repeating the seal checklist. The Echo is obtainable only while its quest is active. Confirm your current stage with Dio between proof objectives, and preserve any materials needed for the later upgrade."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What do I need to enter Realm Beyond Heaven?",
+        "answer": "Equip The World and prepare a Realm Beyond Heaven Key. Each joining player needs their own key."
+      },
+      {
+        "question": "Where can I join a Realm portal?",
+        "answer": "At The Gatekeeper in Jujutsu Academy."
+      },
+      {
+        "question": "How do I get my first Realm key?",
+        "answer": "Complete Earthly Proofs 2 by turning in five Heavenly Diaries for its key reward."
+      },
+      {
+        "question": "How do I still three Chrono Seals?",
+        "answer": "During wave 2, follow the announced seal number and interact inside your own Time Stop; complete three successful events for the proof."
+      },
+      {
+        "question": "Can another player’s Time Stop count?",
+        "answer": "The Chrono Seal objective requires your own Time Stop."
+      },
+      {
+        "question": "Which wave has Dio Heaven Ascension?",
+        "answer": "The final boss is at wave 3."
+      },
+      {
+        "question": "Why is Echo of the Rewritten Hour not dropping?",
+        "answer": "Check that Earthly Proofs 4 is active; the Echo is restricted to that quest stage."
+      }
+    ],
+    "relatedSlugs": [
+      "the-world-over-heaven",
+      "dio",
+      "defy-fate",
+      "trello"
+    ],
+    "lastReviewed": "2026-10-13"
+  },
+  {
+    "enabled": true,
+    "slug": "wiki",
+    "pageType": "guide",
+    "navLabel": "Wiki",
+    "title": "Legacy Piece Wiki – Guides, Codes, Builds & Resources",
+    "description": "Legacy Piece Wiki for Gwynn’s Shrine’s Roblox game: browse codes, quests, races, clans, traits, Haki, Wild Hunt, and community resources.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "Legacy Piece Wiki",
+      "lead": "Find the guide for your next task in Gwynn’s Shrine’s Legacy Piece. Browse quest routes, build systems, Haki progression, codes, and community reference links by category."
+    },
+    "sections": [
+      {
+        "id": "start-here",
+        "heading": "Legacy Piece Wiki: Start Here",
+        "intro": "This guide directory covers the Gwynn’s Shrine Roblox experience at place ID 111097829542198, including the Wild Hunt update content.",
+        "paragraphs": [
+          "Check the creator and place ID when opening the game or comparing a guide. Legacy Piece has shared its name with other experiences, and an older same-name material list can send you towards the wrong NPC or progression system. Start with the current Roblox listing, then choose a category below.",
+          "This is an independent fan guide directory. For a named objective, open the focused guide that matches the text in your quest tab. For a build decision, begin with races, clans, traits, fruits, or the tier list. For a resource link, use the Trello and community pages rather than treating every wiki result as an official announcement.",
+          "Choose by what is blocking you now. A location question needs the relevant quest entrance; a stalled counter needs the guide section about its condition. Reading a complete late-game upgrade route before you own its base style can make your next step harder to identify."
+        ],
+        "links": [
+          {
+            "slug": "https://www.roblox.com/games/111097829542198/",
+            "label": "Play Legacy Piece on Roblox",
+            "description": "Open the Gwynn’s Shrine experience."
+          }
+        ]
+      },
+      {
+        "id": "latest-guides",
+        "heading": "Latest Legacy Piece Guides",
+        "intro": "Use these focused pages for Wild Hunt, Realm Beyond Heaven, Defy Fate, Haki, and the Broken Pedestal.",
+        "paragraphs": [
+          "Wild Hunt covers the island Memories, Souls, Coffin Escort, and Pearl stage. Realm Beyond Heaven explains the dungeon entry and Chrono Seal interaction. Defy Fate concentrates on Joestar’s awakening and the Dio counters that depend on it. Haki explains the combat branches and their progression. Broken Pedestal helps you find the Star Platinum quest landmark and understand the first tasks after it.",
+          "These topics belong to different points in progression. Read the quick answer on the page you choose, then check its prerequisites before starting a long farm. The short directory labels are navigation aids; the active game objective tells you which unlock or quest stage your character currently needs."
+        ],
+        "links": [
+          {
+            "slug": "wild-hunt",
+            "label": "Wild Hunt guide",
+            "description": "Memories, Souls, Coffin Escort, Pearl, and later weapon progression."
+          },
+          {
+            "slug": "realm-beyond-heaven",
+            "label": "Realm Beyond Heaven",
+            "description": "Key, entry requirements, Time Stop, and Chrono Seals."
+          },
+          {
+            "slug": "defy-fate",
+            "label": "Defy Fate",
+            "description": "Joestar Resolve and full awakening survival."
+          },
+          {
+            "slug": "haki",
+            "label": "Haki guide",
+            "description": "Armament, Observation, and Armament V2."
+          },
+          {
+            "slug": "broken-pedestal",
+            "label": "Broken Pedestal",
+            "description": "Grave Island landmark and Stardust quest start."
+          }
+        ]
+      },
+      {
+        "id": "progression",
+        "heading": "Progression & Quest Guides",
+        "intro": "Open a named route when you are pursuing a specific style, ability, race, or quest encounter.",
+        "paragraphs": [
+          "Use Dio for the base The World unlock. Use The World Over Heaven once the base style and upgrade prerequisites are ready. Realm Beyond Heaven is the companion dungeon guide for the later proof sequence; Defy Fate helps with the early Joestar awakening tasks.",
+          "Araya and Lost Afterimage serve different questions within the estate and Time Safe route. The Araya page follows the larger unlock, while Lost Afterimage is the better starting point when your immediate problem is locating the quest contact. Undead Fishman handles that race progression separately from the general race comparison.",
+          "Keep your inventory and active quest beside the guide. A checklist can help you organise materials, but it does not mean every collection is available before its stage starts. After completing a task, read the NPC dialogue again and choose the next guide only when it matches the new objective."
+        ],
+        "links": [
+          {
+            "slug": "dio",
+            "label": "Dio / The World",
+            "description": "Follow the base-style quest chain."
+          },
+          {
+            "slug": "the-world-over-heaven",
+            "label": "The World Over Heaven",
+            "description": "Plan the later Heaven upgrade."
+          },
+          {
+            "slug": "araya",
+            "label": "Araya",
+            "description": "Follow estate and Time Safe progression."
+          },
+          {
+            "slug": "lost-afterimage",
+            "label": "Lost Afterimage",
+            "description": "Find the quest contact and next route step."
+          },
+          {
+            "slug": "undead-fishman",
+            "label": "Undead Fishman",
+            "description": "Read the dedicated race progression."
+          },
+          {
+            "slug": "haki",
+            "label": "Haki progression",
+            "description": "Prepare combat unlocks and quest uses."
+          }
+        ]
+      },
+      {
+        "id": "builds",
+        "heading": "Races, Clans, Traits & Builds",
+        "intro": "Compare the systems around your main damage source before spending rerolls or rebuilding a loadout.",
+        "paragraphs": [
+          "Races and clans describe passive roles and quest-linked choices. Traits affect how a build performs in the encounters you repeat. Fruits are another part of the damage and utility setup. Use the tier list to compare broader targets, then read the relevant system page to understand why a choice suits your character.",
+          "Choose for the job you need to finish. A setup for repeated boss clears can have different priorities from one used for sustained quest combat. Consider survival, cooldown availability, and consistency alongside damage. Test a change on a familiar encounter before spending a large part of your resources chasing another option.",
+          "Treat quest requirements separately from a build preference. A clan chosen for its passive may also be a prerequisite for a named route. Before rerolling away from that clan, finish any progression that depends on it or check the objective you would need to resume later."
+        ],
+        "links": [
+          {
+            "slug": "races",
+            "label": "Races",
+            "description": "Compare passive roles and quest-linked lines."
+          },
+          {
+            "slug": "clans",
+            "label": "Clans",
+            "description": "Read bloodline effects and unlock connections."
+          },
+          {
+            "slug": "traits",
+            "label": "Traits",
+            "description": "Match passive choices to your combat routine."
+          },
+          {
+            "slug": "fruits",
+            "label": "Fruits",
+            "description": "Compare fruit roles in your loadout."
+          },
+          {
+            "slug": "tier-list",
+            "label": "Tier list",
+            "description": "Choose the next build target."
+          }
+        ]
+      },
+      {
+        "id": "resources",
+        "heading": "Codes, Trello & Community Resources",
+        "intro": "Use codes for redemption help, Trello for reference cards, and the community resource hub for game and community entry points.",
+        "paragraphs": [
+          "The codes page keeps the redemption instructions and listed rewards together. Read the exact spelling and the game’s response when a redemption fails. Inventory space, previous redemption, and code availability are different problems; the error message helps you decide what to check.",
+          "Trello is useful when an objective names an item, quest, or prerequisite. Open the relevant card and compare it with the task in your game. The resource hub collects the game, wiki, and community references, while the dedicated Trello page explains how to browse the board.",
+          "When an update changes a route, start from the current quest text and then find the matching card or guide. Keep community invitations tied to the game’s own resource entry points. That makes it easier to follow an announcement back to the experience you actually play."
+        ],
+        "links": [
+          {
+            "slug": "codes",
+            "label": "Legacy Piece codes",
+            "description": "Rewards, redemption instructions, and error help."
+          },
+          {
+            "slug": "trello",
+            "label": "Legacy Piece Trello",
+            "description": "Browse the current board reference."
+          },
+          {
+            "slug": "trello-wiki-discord",
+            "label": "Trello, Wiki & Discord resources",
+            "description": "Find the game and community entry points."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Which Legacy Piece does this wiki cover?",
+        "answer": "The Gwynn’s Shrine Roblox experience at place ID 111097829542198."
+      },
+      {
+        "question": "Is this the official Legacy Piece wiki?",
+        "answer": "This is an independent fan guide directory. Use the Roblox listing and linked game resources for official entry points."
+      },
+      {
+        "question": "Where should I start as a new player?",
+        "answer": "Open codes for redemption help, then choose the guide that matches your active quest or the build system you want to understand."
+      },
+      {
+        "question": "Where is the Wild Hunt guide?",
+        "answer": "Open Wild Hunt in the latest guides category for Memories, Souls, Coffin Escort, Pearl, and later progression."
+      },
+      {
+        "question": "Which page explains Dio versus Over Heaven?",
+        "answer": "Dio covers the base The World unlock. The World Over Heaven covers the later upgrade, with Realm Beyond Heaven for its dungeon mechanic."
+      },
+      {
+        "question": "Where are the Trello and Discord links?",
+        "answer": "Use the Trello page and the Trello, Wiki & Discord resource hub linked in the resources category."
+      }
+    ],
+    "relatedSlugs": [
+      "codes",
+      "trello",
+      "wild-hunt",
+      "tier-list",
+      "haki"
+    ],
+    "lastReviewed": "2026-10-13"
+  },
+  {
+    "enabled": true,
+    "slug": "broken-pedestal",
+    "pageType": "guide",
+    "navLabel": "Broken Pedestal",
+    "title": "Legacy Piece Broken Pedestal – Location & Quest Guide",
+    "description": "Find the Broken Pedestal on Grave Island in Legacy Piece, start the Stardust route with Jotaro, and prepare Star Platinum’s Observation Haki task.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "Legacy Piece Broken Pedestal",
+      "lead": "Find the Broken Pedestal on the far side of Grave Island after starting Jotaro’s Stardust quest. Follow the tracker, look for the purple crystal landmark, and interact to advance the first stage."
+    },
+    "sections": [
+      {
+        "id": "quick-location",
+        "heading": "Where Is the Broken Pedestal in Legacy Piece?",
+        "intro": "The Broken Pedestal is deeper into Grave Island, on the far side of the island rather than beside Jotaro at the player spawn.",
+        "paragraphs": [
+          "Start with Jotaro a short distance from the spawn. Accept the Stardust quest, then use the tracker’s pedestal name and distance to guide your search across the island. This gives you a better route than looking for an unmarked point or following an old description of the “newest island.”",
+          "Stay on the named objective until the interaction registers. Reaching the landmark is only the travel part of the task. After interacting, inspect the quest display for the next Stardust stage before leaving to farm bosses."
+        ],
+        "steps": [
+          {
+            "heading": "Begin with Jotaro on Grave Island",
+            "description": "Start the Stardust route after meeting the Joestar and opening-payment requirements."
+          },
+          {
+            "heading": "Follow the Broken Pedestal tracker",
+            "description": "Travel deeper into the island towards the far-side landmark."
+          },
+          {
+            "heading": "Interact and inspect the next objective",
+            "description": "Complete the first stage, then check the next Stardust task."
+          }
+        ]
+      },
+      {
+        "id": "landmark",
+        "heading": "How to Recognize the Broken Pedestal",
+        "intro": "Look for the broken pedestal and nearby purple crystal. Use the quest tracker to distinguish it from other scenery.",
+        "paragraphs": [
+          "Approach until the interaction prompt is available, then use the action shown for your device. The crystal is a visual landmark, so keep the camera positioned to see the structure and prompt. If you are exploring without the quest, return to Jotaro first so the tracker points to the relevant object.",
+          "Before sailing away, confirm that the pedestal objective has changed. A successful interaction should move your attention to the next task, not another search for the same landmark. If you are uncertain whether it registered, inspect the objective and speak to Jotaro again rather than beginning a long material grind."
+        ]
+      },
+      {
+        "id": "requirements",
+        "heading": "What You Need Before Using the Broken Pedestal",
+        "intro": "The current Stardust route begins with Jotaro on Grave Island. Prepare the Joestar clan and $5,000,000 to start, then choose “Tell me about the other arrow.”",
+        "paragraphs": [
+          "Check the clan and starting money before travelling. The pedestal belongs to the first quest stage after that dialogue. It is not an instant standalone reward you can claim by finding the island scenery, and interacting with unrelated objects does not replace accepting the route.",
+          "Observation Haki is needed later for the dodge objective. You can use the pedestal stage to identify the quest entrance, then plan that combat unlock before reaching the dodge task. Keep your next requirement separate from the final Star Platinum exchange so you do not mistake the opening payment for the entire cost."
+        ],
+        "links": [
+          {
+            "slug": "https://trello.com/c/WuW4Gg8r",
+            "label": "Star Platinum quest card",
+            "description": "Read Jotaro’s current Stardust sequence."
+          },
+          {
+            "slug": "haki",
+            "label": "Prepare Observation Haki",
+            "description": "Read the unlock route before the later dodge task."
+          }
+        ]
+      },
+      {
+        "id": "star-platinum",
+        "heading": "What the Broken Pedestal Starts",
+        "intro": "The pedestal completes the opening search stage of the Stardust questline leading to Star Platinum.",
+        "paragraphs": [
+          "After the interaction, progression moves into Special Boss defeats, Starlight materials, and Observation Haki dodges. The pedestal itself does not grant Star Platinum. Treat it as the checkpoint that tells you the route is underway.",
+          "This is also a useful moment to prepare a repeatable farming setup. Focus on targets that match the next quest condition rather than the most impressive boss you can find. Before changing activities, read whether the objective is asking for a kill count, an inventory item, or a successful Haki dodge. Those counters do not advance in the same way."
+        ]
+      },
+      {
+        "id": "checklist",
+        "heading": "Star Platinum Quest Requirements After the Pedestal",
+        "intro": "The next Stardust objectives are 40 Special Boss defeats, 50 Starlight Shards, 50 Observation Haki dodges, and 25 Starlight Cores.",
+        "paragraphs": [
+          "Special Bosses are the eligible summoned or rotation encounters named by the route, rather than every fixed-spawn enemy. Start with a manageable eligible target and confirm one kill counts before committing to the full set. A faster ordinary enemy does not help if it falls outside the requested category.",
+          "Starlight Shards and Starlight Cores are different items. Their drops are tied to their matching Stardust stages, so do not spend hours trying to pre-farm a quest-locked collection. Inspect the active task and item name before each session. Keep the materials for the final exchange after the counters are complete."
+        ],
+        "table": {
+          "caption": "Objectives following the pedestal",
+          "columns": [
+            "Stage",
+            "Requirement",
+            "What to watch"
+          ],
+          "rows": [
+            [
+              "Stardust 2",
+              "40 Special Boss defeats",
+              "Eligible boss classification"
+            ],
+            [
+              "Stardust 3",
+              "50 Starlight Shards",
+              "Shard quest active"
+            ],
+            [
+              "Stardust 4",
+              "50 Observation Haki dodges",
+              "Successful Haki dodges"
+            ],
+            [
+              "Stardust 5",
+              "25 Starlight Cores",
+              "Core quest active"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "haki-link",
+        "heading": "Observation Haki and the Pedestal Quest",
+        "intro": "The Stardust dodge task requires successful Observation Haki dodges. Ordinary movement away from an attack is a different action.",
+        "paragraphs": [
+          "Unlock Observation before tackling that stage, then watch the counter during an encounter you can control. Test a small set of incoming attacks and check that the objective advances. Pressing a movement key repeatedly is not proof that Observation’s dodge has triggered.",
+          "Use a target with attacks you can observe without overwhelming your health. Stop after a short test to compare the counter with your starting value. Once you know the task registers, repeat the same reliable conditions instead of changing enemies after every attempt."
+        ],
+        "links": [
+          {
+            "slug": "haki",
+            "label": "Legacy Piece Haki guide",
+            "description": "Unlock Observation and understand its quest use."
+          }
+        ]
+      },
+      {
+        "id": "problems",
+        "heading": "Broken Pedestal Not Working? Check These Steps",
+        "intro": "Check Grave Island, Jotaro’s dialogue, Joestar, the opening payment, and whether Stardust 1 is active.",
+        "paragraphs": [
+          "If no useful interaction appears, inspect the quest tracker first. If it names a later Stardust task, you may already have completed the pedestal stage. Follow that task instead of repeatedly interacting with the same object.",
+          "If the next stage does not activate after completion, speak to Jotaro again. His dialogue can restore the first unfinished Stardust stage. Read the returned objective before farming, and keep the shard and core stages separate when diagnosing a missing drop.",
+          "For a location problem, use the tracker distance and the purple crystal landmark. For a boss or material problem, use the stage’s conditions. This keeps the pedestal search from becoming a distraction when your actual blocker has moved to a later objective."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Which island has the Broken Pedestal?",
+        "answer": "Grave Island. It is on the far side, deeper into the island from Jotaro’s location near the spawn."
+      },
+      {
+        "question": "How do I recognise the Broken Pedestal?",
+        "answer": "Look for the broken structure and nearby purple crystal, then follow the active quest tracker."
+      },
+      {
+        "question": "What do I need to start the pedestal quest?",
+        "answer": "Start Jotaro’s Stardust route with Joestar and $5,000,000, then follow the first objective."
+      },
+      {
+        "question": "Does the pedestal give Star Platinum immediately?",
+        "answer": "No. It completes the opening search stage; boss, material, Haki, and exchange requirements follow."
+      },
+      {
+        "question": "Why do my Observation dodges not count?",
+        "answer": "Check that Stardust 4 is active and that Observation Haki is performing the successful dodges."
+      },
+      {
+        "question": "What if the next Stardust quest is missing?",
+        "answer": "Speak to Jotaro again and read the restored unfinished stage before continuing."
+      }
+    ],
+    "relatedSlugs": [
+      "haki",
+      "trello",
+      "tier-list",
+      "wiki"
+    ],
+    "lastReviewed": "2026-10-13"
+  },
+  {
+    "enabled": true,
+    "slug": "haki",
+    "pageType": "guide",
+    "navLabel": "Haki",
+    "title": "Legacy Piece Haki Guide – Armament, Observation & V2",
+    "description": "Unlock Legacy Piece Armament and Observation Haki, prepare Armament V2 / Ryou, and understand the combat uses and Star Platinum dodge requirement.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "Legacy Piece Haki Guide",
+      "lead": "Begin Armament with Rayleigh at Ice Land, follow Observation’s Enel route at Hollow Land, and prepare maxed Armament before the V2 / Ryou upgrade."
+    },
+    "sections": [
+      {
+        "id": "quick-answer",
+        "heading": "How to Get Haki in Legacy Piece",
+        "intro": "Armament and Observation have separate NPC quest routes. Armament hardens strikes; Observation supports sensing and dodging. Armament V2 is the later upgrade often called Ryou.",
+        "paragraphs": [
+          "Start with the branch that addresses your current objective, then read its quest conditions before farming. Basic Armament needs 300,000 Money and the Unlock Armament Haki 1 and 2 quests. Observation needs 1,000,000 Money and its two unlock quests. The V2 route comes after maxing base Armament.",
+          "Owning the unlock and using it correctly in combat are separate jobs. A quest can ask for Combat style attacks, Haki dodges, or a progression stage. Check the named condition rather than substituting whichever skill deals the most damage."
+        ],
+        "table": {
+          "caption": "Haki progression overview",
+          "columns": [
+            "Branch",
+            "Route",
+            "Main role"
+          ],
+          "rows": [
+            [
+              "Armament / Busoshoku",
+              "Rayleigh; base unlock quests",
+              "Hardens strikes; foundation for V2"
+            ],
+            [
+              "Observation / Kenbunshoku",
+              "Enel; Hollow and Shinigami quests",
+              "Sense and dodge attacks"
+            ],
+            [
+              "Armament V2 / Ryou",
+              "Maxed Armament plus Awaken Ryou quests",
+              "Later Armament progression"
+            ],
+            [
+              "Conqueror / Haoshoku",
+              "Separate Haki branch",
+              "Dominating presence"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "armament",
+        "heading": "How to Unlock Armament Haki",
+        "intro": "Visit Rayleigh at Ice Land and follow the Armament unlock quests. Prepare 300,000 Money for the unlock.",
+        "paragraphs": [
+          "The first task is to defeat 20 Beggars using the Combat style. The second asks for 100 uses of Combat skill Z. Keep the named style equipped and confirm a small amount of progress before grinding the entire counter. A weapon or fruit attack may defeat the target without satisfying a Combat-specific objective.",
+          "After the Beggar stage, inspect the next quest before continuing to kill enemies. A skill-use counter asks for uses of the named action, which is different from another set of defeats. Watch the progress display so you can see that the game is registering the action you repeat.",
+          "Avoid an unnecessary stat reset before testing your current setup. Try a short eligible fight first, see whether Combat damage is sufficient, then adjust only what you need. This preserves resources for the later Haki route while helping you diagnose a wrong-style issue separately from low damage.",
+          "Once the unlock requirements are complete, return to the NPC and check the Haki controls. Try the effect on a familiar encounter before moving into harder progression. The goal is a routine you can use consistently, with enough attention left for enemy attacks and your next quest counter."
+        ],
+        "links": [
+          {
+            "slug": "https://trello.com/c/6G1xBery",
+            "label": "Armament Haki card",
+            "description": "Read the base unlock and named quests."
+          }
+        ]
+      },
+      {
+        "id": "observation",
+        "heading": "How to Unlock Observation Haki",
+        "intro": "Follow Enel’s Observation route at Hollow Land. Complete 20 Hollow defeats and then five Shinigami defeats, with 1,000,000 Money for the unlock.",
+        "paragraphs": [
+          "Keep the two objectives in sequence. A Hollow is the first target; the Shinigami task comes after it. Check the accepted quest and target name before investing time in repeated fights. Reaching a location associated with the route does not mean every nearby enemy counts.",
+          "After unlocking Observation, practice using it against attacks you can see clearly. Distinguish a successful Haki dodge from manually moving out of range. This becomes especially important when a later quest measures Observation dodges rather than your general ability to avoid damage.",
+          "For the Star Platinum route, inspect the dodge counter after a short trial. If it advances, continue with the same manageable encounter. If it does not, check the active Stardust stage and Haki state before taking more attacks. An unnecessary high-damage target makes this diagnosis harder."
+        ],
+        "links": [
+          {
+            "slug": "https://trello.com/c/F9zFbkOA",
+            "label": "Observation Haki card",
+            "description": "Read the unlock branch and its sensing/dodging role."
+          },
+          {
+            "slug": "broken-pedestal",
+            "label": "Broken Pedestal quest guide",
+            "description": "See where Observation is used in Stardust progression."
+          }
+        ]
+      },
+      {
+        "id": "v2",
+        "heading": "How Armament Haki V2 Works",
+        "intro": "Armament V2 / Busoshoku V2 is the later Ryou route. Prepare maxed Armament at Stage 8, 10,000,000 Money, and the Awaken Ryou 1 and 2 quests.",
+        "paragraphs": [
+          "Check the base Armament stage before looking for the upgrade dialogue. A base unlock is the beginning of that progression, not proof that the Stage 8 prerequisite is complete. The V2 route is associated with Legacy Island; read the active Ryou task before you leave to farm.",
+          "One Ryou objective asks for 500 uses of Combat skill Z. Keep the required Combat action separate from a generic skill rotation. If the counter remains unchanged, inspect the equipped style and prerequisite stage before assuming you need a stronger enemy.",
+          "Treat Armament V2 as its own preparation project. Keep the named base progression, quest completion, and payment ready together. Do not confuse a colour change with an upgrade stage or assume that an Observation task completes the Armament route.",
+          "When you unlock the upgrade, test it in the same encounter you used for the base setup. Keep other gear and passive choices consistent while learning the new combat routine. This makes it easier to notice how the upgrade fits your attacks without changing several build systems at once."
+        ],
+        "links": [
+          {
+            "slug": "https://trello.com/c/32r7y0u0",
+            "label": "Armament V2 card",
+            "description": "Read the Stage 8 and Awaken Ryou prerequisites."
+          }
+        ]
+      },
+      {
+        "id": "conqueror",
+        "heading": "What About Conqueror Haki?",
+        "intro": "Conqueror, also called Haoshoku, is a separate branch from Armament, Observation, and Armament V2.",
+        "paragraphs": [
+          "Treat its progression separately from the unlock you are currently doing. Completing Rayleigh’s base tasks or Enel’s Observation tasks does not stand in for another named Haki branch. Read the current Conqueror card and the game’s unlock prompt before committing resources to that path.",
+          "For a player focused on the Broken Pedestal quest, Observation is the branch needed for the dodge objective. For someone preparing Armament V2, base Armament progression is the relevant prerequisite. Choose your next branch around the task you want to finish, then return to other Haki paths afterwards."
+        ],
+        "links": [
+          {
+            "slug": "https://trello.com/c/hJajTxGF",
+            "label": "Conqueror Haki reference",
+            "description": "Open the separate branch card."
+          }
+        ]
+      },
+      {
+        "id": "uses",
+        "heading": "Where Haki Is Required in Current Quests",
+        "intro": "The Star Platinum Stardust route requires 50 successful Observation Haki dodges after the Broken Pedestal and earlier objectives.",
+        "paragraphs": [
+          "Keep Stardust 4 active when completing that counter. Test whether Observation’s successful dodges register before committing to a long fight. The objective is not a request to dash 50 times, and ordinary movement away from the enemy is not the same mechanic.",
+          "Armament has its own progression gates for the later V2 route. Read the named stage and skill objective when training it. Quest conditions refer to a specific system, so a powerful style, a good race, or a defensive trait does not automatically replace Haki.",
+          "Use the quest tracker to decide whether you need a new unlock or better execution of one you already own. If you have Observation but the dodge task stalls, test the action and stage. If you have basic Armament but cannot open V2, inspect the progression prerequisite rather than starting the base quests again."
+        ]
+      },
+      {
+        "id": "order",
+        "heading": "Which Haki Should You Unlock First?",
+        "intro": "Choose Armament for its base strike progression, Observation when a dodge objective is your next blocker, and Armament V2 after its base prerequisites are ready.",
+        "paragraphs": [
+          "For a new Haki routine, begin with a short unlock checklist: required NPC, accepted task, target or skill, and money. Finish the current counter and read the next prompt. This is easier to follow than mixing several island farms into one session without checking which quests are active.",
+          "For an established build, let the next unlock guide your order. Someone entering the Star Platinum dodge stage should prepare Observation. Someone with Stage 8 Armament can plan Ryou. If neither prerequisite is ready, spend the session finishing the earlier stage instead of travelling between advanced NPCs."
+        ]
+      },
+      {
+        "id": "problems",
+        "heading": "Common Haki Unlock Problems",
+        "intro": "Most stalled Haki tasks need a check of the named branch, quest stage, target type, or equipped Combat action.",
+        "paragraphs": [
+          "For Armament, confirm Combat is used where required. For Observation, distinguish the Hollow and Shinigami stages. For Ryou, check Stage 8 and the required Combat skill. For Stardust, confirm successful Observation dodges while the matching quest is active.",
+          "Before repeating an activity, write down the counter and complete a small test. If progress changes, continue. If it stays unchanged, reread the objective and NPC dialogue. Diagnose the condition first; spending more money or fighting a harder enemy cannot solve an incorrectly selected quest.",
+          "After an unlock, check the device’s actual controls and practise activation in a familiar fight. If the effect is absent, inspect whether it is available and active before judging the build. Keep Haki training separate from race or trait rerolls so the source of a problem remains clear."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Where do I start Armament Haki?",
+        "answer": "Visit Rayleigh at Ice Land and follow the Combat-based unlock quests."
+      },
+      {
+        "question": "Where do I unlock Observation Haki?",
+        "answer": "Follow Enel’s route at Hollow Land, with the Hollow and Shinigami objectives."
+      },
+      {
+        "question": "What is Ryou in Legacy Piece?",
+        "answer": "Ryou is the name commonly used for the Armament Haki V2 / Busoshoku V2 progression."
+      },
+      {
+        "question": "What do I need for Armament V2?",
+        "answer": "Maxed Armament at Stage 8, 10,000,000 Money, and completion of Awaken Ryou 1 and 2."
+      },
+      {
+        "question": "Does dashing count for the Star Platinum Haki quest?",
+        "answer": "The task asks for successful Observation Haki dodges, not ordinary movement or repeated dash inputs."
+      },
+      {
+        "question": "Is Conqueror the same as Armament V2?",
+        "answer": "No. Conqueror is a separate Haki branch; Armament V2 is the later Armament progression."
+      },
+      {
+        "question": "Why do Combat skill uses not count?",
+        "answer": "Check the active quest, its prerequisite stage, and that you are using the named Combat skill."
+      }
+    ],
+    "relatedSlugs": [
+      "broken-pedestal",
+      "wild-hunt",
+      "races",
+      "traits",
+      "tier-list",
+      "wiki"
+    ],
+    "lastReviewed": "2026-10-13"
   }
 ]

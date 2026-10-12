@@ -19,11 +19,13 @@ export function FixedTemplateHome({ home }: { home: HomePageDefinition }) {
   const links: InternalLink[] = visibleCorePages
     .filter((page) => page.slug.replace(/^\/+|\/+$/g, ""))
     .map((page) => ({ slug: page.slug, label: page.navLabel }));
-  const entries = visibleCorePages.map((page) => ({
-    href: routePath(page.slug),
-    title: page.navLabel,
-    text: page.description,
-  }));
+  const entries = visibleCorePages
+    .filter((page) => !["wild-hunt", "defy-fate", "realm-beyond-heaven", "wiki", "broken-pedestal", "haki"].includes(page.slug))
+    .map((page) => ({
+      href: routePath(page.slug),
+      title: page.navLabel,
+      text: page.description,
+    }));
   const rendered = renderFixedDocument({
     skin,
     page: "home",
