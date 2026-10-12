@@ -12,9 +12,11 @@ header{border-bottom:1px solid var(--line)}
 .brand-mark{display:block;width:34px;height:34px;flex:0 0 34px;object-fit:cover}
 .brand-name{display:inline-block;white-space:nowrap}
 .brand i{color:var(--accent);font-style:normal}
-.nav{display:flex;flex-wrap:wrap;justify-content:flex-end;max-width:100%;margin-left:auto;border:1px solid var(--line)}
+.nav{display:flex;flex-direction:column;align-items:stretch;max-width:100%;margin-left:auto;border:1px solid var(--line)}
+.nav-row{display:flex;flex-wrap:wrap;justify-content:flex-end}
+.nav-row + .nav-row{border-top:1px solid var(--line)}
 .nav-link{font-family:Arial,sans-serif;font-size:11px;letter-spacing:.08em;font-weight:800;padding:11px 12px;border-right:1px solid var(--line);color:#C8CDD6;white-space:nowrap}
-.nav-link:last-child{border-right:0}
+.nav-row .nav-link:last-child{border-right:0}
 .nav-link:hover,.nav-link:focus-visible{background:#16243C;color:#fff}
 .nav-link.active{background:var(--accent);color:#08101D}
 .nav-link:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -76,10 +78,13 @@ h1{font-size:clamp(46px,6vw,68px);line-height:1.02;margin:14px 0 18px;letter-spa
 .guide-faq{margin-top:22px}
 .guide-faq h3{margin:0 0 5px}
 .guide-faq p{margin:0}
-@media(min-width:821px){
+@media(min-width:1024px){
   .nav-link{font-size:10px}
 }
-@media(max-width:820px){
+@media(min-width:1024px) and (max-width:1199px){
+  .nav-link{padding:10px 9px;letter-spacing:.06em}
+}
+@media(max-width:1023px){
   .head{align-items:center;min-height:0;gap:12px}
   .nav-toggle{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:42px;margin-left:auto;padding:9px 12px;border:1px solid var(--line);background:#111720;color:#EAF2FF;font:800 11px/1 Arial,sans-serif;letter-spacing:.08em;cursor:pointer}
   .nav-toggle:hover{border-color:var(--accent);background:#16243C}
@@ -91,7 +96,10 @@ h1{font-size:clamp(46px,6vw,68px);line-height:1.02;margin:14px 0 18px;letter-spa
   .head[data-menu-open="true"] .nav-toggle-bars span:last-child{transform:translateY(-6px) rotate(-45deg)}
   .nav{display:none;order:3;width:100%;margin-left:0;grid-template-columns:repeat(3,minmax(0,1fr));border:0;gap:4px}
   .head[data-menu-open="true"] .nav{display:grid}
-  .nav-link,.nav-link:last-child{min-width:0;border:1px solid var(--line);padding:11px 10px;text-align:center}
+  .nav-row{display:contents}
+  .nav .nav-link,.nav .nav-link:last-child,.nav-row .nav-link:last-child{min-width:0;border:1px solid var(--line);padding:11px 10px;text-align:center}
+}
+@media(max-width:820px){
   .hero{grid-template-columns:1fr;min-height:auto;gap:28px;padding:40px 0}
   .hero-media{max-width:680px}
   .section-head{grid-template-columns:1fr;gap:8px}

@@ -50,11 +50,29 @@ export function esc(value: string): string {
 
 export function templateNavLinks(nav: TemplateLink[], page: "home" | "inner", currentSlug?: string | null): string {
   const items = nav.filter((item) => item.slug.replace(/^\/+|\/+$/g, ""));
-  return items.map((item) => {
+  const anchor = (item: TemplateLink) => {
     const slug = item.slug.replace(/^\/+|\/+$/g, "");
     const active = page === "inner" && currentSlug && slug === currentSlug.replace(/^\/+|\/+$/g, "");
     return `<a class="nav-link${active ? " active" : ""}" href="${esc(item.href)}"${active ? ' aria-current="page"' : ""}>${esc(item.label)}</a>`;
-  }).join("");
+  };
+  return splitNavRows(items).map((row) => `<span class="nav-row">${row.map(anchor).join("")}</span>`).join("");
+}
+
+// Two balanced rows keep the right-aligned header nav from wrapping into a squeezed block.
+function splitNavRows(items: TemplateLink[]): TemplateLink[][] {
+  if (items.length < 3) return [items];
+  const weight = (item: TemplateLink) => item.label.length + 2.4;
+  const half = items.reduce((sum, item) => sum + weight(item), 0) / 2;
+  let sum = 0;
+  let cut = items.length - 1;
+  for (let index = 1; index < items.length - 1; index += 1) {
+    sum += weight(items[index - 1] as TemplateLink);
+    if (sum + weight(items[index] as TemplateLink) > half) {
+      cut = index;
+      break;
+    }
+  }
+  return [items.slice(0, cut), items.slice(cut)];
 }
 
 function brandInner(gameName: string, skin: string, page: "home" | "inner", logoUrl?: string | null): string {
