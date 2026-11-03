@@ -55,7 +55,14 @@ export function templateNavLinks(nav: TemplateLink[], page: "home" | "inner", cu
     const active = page === "inner" && currentSlug && slug === currentSlug.replace(/^\/+|\/+$/g, "");
     return `<a class="nav-link${active ? " active" : ""}" href="${esc(item.href)}"${active ? ' aria-current="page"' : ""}>${esc(item.label)}</a>`;
   };
-  return splitNavRows(items).map((row) => `<span class="nav-row">${row.map(anchor).join("")}</span>`).join("");
+  // Expansion pages never enter the original row-balancing calculation.
+  const extraSlugs = new Set(["dreadtide-revenant", "conquerors-haki", "star-platinum", "blood-stained-stand-arrow", "joestar-clan"]);
+  const existing = items.filter((item) => !extraSlugs.has(item.slug));
+  const extra = items.filter((item) => extraSlugs.has(item.slug));
+  const rows = splitNavRows(existing).map((row) => `<span class="nav-row">${row.map(anchor).join("")}</span>`).join("");
+  if (!extra.length) return `<div class="template-nav-existing">${rows}</div>`;
+  const active = extra.some((item) => item.slug === currentSlug);
+  return `<div class="template-nav-existing">${rows}</div><div class="template-nav-group"><button type="button" class="template-nav-trigger${active ? " active" : ""}" aria-expanded="false" aria-controls="template-nav-more">More Guides<span aria-hidden="true"> ▾</span></button><div class="template-nav-panel" id="template-nav-more">${extra.map(anchor).join("")}</div></div>`;
 }
 
 // Two balanced rows keep the right-aligned header nav from wrapping into a squeezed block.
@@ -98,7 +105,7 @@ function replaceNav(html: string, links: string): string {
   if (html.includes('<div class="nav">')) {
     return html.replace(/<div class="nav">[\s\S]*?<\/div>/, `<div class="nav">${links}</div>`);
   }
-  return html.replace(/<nav class="nav">[\s\S]*?<\/nav>/, `<nav class="nav" id="primary-navigation" aria-label="Primary navigation">${links}</nav>`);
+  return html.replace(/<nav class="nav">[\s\S]*?<\/nav>/, `<nav class="nav template-nav" id="primary-navigation" aria-label="Primary navigation">${links}</nav>`);
 }
 
 function replaceBrand(html: string, inner: string, homeHref: string): string {

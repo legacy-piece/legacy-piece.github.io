@@ -114,6 +114,28 @@ h1{font-size:clamp(46px,6vw,68px);line-height:1.02;margin:14px 0 18px;letter-spa
   .card h3{margin-top:12px}
   .inner-hero{min-height:0;padding-top:35px}
 }
+
+/* Keep the original navigation rows; only expansion guides use this menu. */
+.head .template-nav{flex-direction:row;align-items:center;border:0;gap:8px}
+.head .template-nav-existing{display:flex;flex-direction:column;border:1px solid var(--line)}
+.head .template-nav-group{position:relative;flex:none}
+.head .template-nav-trigger{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;padding:10px 12px;border:1px solid var(--line);background:#111720;color:#C8CDD6;font:800 11px/1.4 Arial,sans-serif;letter-spacing:.03em;cursor:pointer}
+.head .template-nav-trigger.active{background:var(--accent);color:#08101D}
+.head .template-nav-panel{display:none;position:absolute;right:0;top:100%;z-index:50;width:280px;max-height:min(70vh,620px);overflow-y:auto;overscroll-behavior:contain;background:#0D0E11;border:1px solid var(--line);box-shadow:0 12px 24px #0008}
+.head .template-nav-trigger[aria-expanded="true"] + .template-nav-panel{display:block}
+.head .template-nav-panel .nav-link{display:flex;align-items:center;min-height:44px;padding:10px 12px;border:0;border-bottom:1px solid var(--line);font-size:11px;white-space:normal;text-align:left}
+.head .template-nav-trigger:hover,.head .template-nav-trigger:focus-visible{background:#16243C;color:#fff}
+.head .template-nav-trigger:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media(max-width:1023px){
+ .head .nav-toggle{min-height:44px}
+ .head .template-nav{display:none;max-height:calc(100dvh - 110px);overflow-y:auto;overscroll-behavior:contain;align-items:stretch}
+ .head[data-menu-open="true"] .template-nav{display:grid}
+ .head .template-nav-existing{display:contents}
+ .head .template-nav > .template-nav-group{grid-column:1 / -1;min-width:0}
+ .head .template-nav-trigger{width:100%}
+ .head .template-nav .nav-link{min-height:44px}
+ .head .template-nav-panel{position:static;width:100%;max-height:none;overflow:visible;box-shadow:none}
+}
 `;
 
 const header = `<header><div class="wrap head" data-menu-open="false"><a class="brand" href="home.html" aria-label="Back to homepage">Game Guide</a><button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false"><span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span><span>Menu</span></button><nav class="nav"></nav></div></header>`;

@@ -568,7 +568,14 @@
               "Enter with a tested boss rotation."
             ]
           ]
-        }
+        },
+        "links": [
+          {
+            "slug": "blood-stained-stand-arrow",
+            "label": "Prepare the Blood-Stained Stand Arrow materials",
+            "description": "Follow the location, material checklist and next quest step."
+          }
+        ]
       },
       {
         "id": "route",
@@ -1474,7 +1481,14 @@
               "Style requirements and current in-game skill text."
             ]
           ]
-        }
+        },
+        "links": [
+          {
+            "slug": "joestar-clan",
+            "label": "Get Joestar and prepare its quest routes",
+            "description": "Plan Clan Rerolls and the prerequisites for Dio and Jotaro."
+          }
+        ]
       },
       {
         "id": "clan-tiers",
@@ -2681,6 +2695,11 @@
             "slug": "https://trello.com/c/b3l312XD/835-undead-fishman-core",
             "label": "Undead Fishman Core reference",
             "description": "Check when the Core farm becomes available."
+          },
+          {
+            "slug": "dreadtide-revenant",
+            "label": "Find Dreadtide Revenants and farm Fangs and Hearts",
+            "description": "Follow the location, material checklist and next quest step."
           }
         ]
       },
@@ -3627,6 +3646,13 @@
         "paragraphs": [
           "After the interaction, progression moves into Special Boss defeats, Starlight materials, and Observation Haki dodges. The pedestal itself does not grant Star Platinum. Treat it as the checkpoint that tells you the route is underway.",
           "This is also a useful moment to prepare a repeatable farming setup. Focus on targets that match the next quest condition rather than the most impressive boss you can find. Before changing activities, read whether the objective is asking for a kill count, an inventory item, or a successful Haki dodge. Those counters do not advance in the same way."
+        ],
+        "links": [
+          {
+            "slug": "star-platinum",
+            "label": "Complete the Star Platinum questline",
+            "description": "Continue from the pedestal through materials, Haki dodges and the final exchange."
+          }
         ]
       },
       {
@@ -3854,6 +3880,11 @@
             "slug": "https://trello.com/c/hJajTxGF",
             "label": "Conqueror Haki reference",
             "description": "Open the separate branch card."
+          },
+          {
+            "slug": "conquerors-haki",
+            "label": "Follow the Conqueror’s Haki trial route",
+            "description": "Prepare the separate Haoshoku quest chain and track its objectives."
           }
         ]
       },
@@ -3926,5 +3957,857 @@
       "wiki"
     ],
     "lastReviewed": "2026-10-13"
+  },
+  {
+    "enabled": true,
+    "slug": "dreadtide-revenant",
+    "pageType": "guide",
+    "navLabel": "Dreadtide Revenant",
+    "title": "Legacy Piece Dreadtide Revenant – Location & Drops",
+    "description": "Find Dreadtide Revenants on Grave Island in Legacy Piece, learn where Fangs and Hearts fit into Undead Fishman, and prepare a focused material farm.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "Legacy Piece Dreadtide Revenant: Location and Drops",
+      "lead": "Dreadtide Revenants spawn on Grave Island and drop Dreadtide Fangs and Hearts. These materials are used in the Undead Fishman evolution: prepare 100 Fangs and 50 Hearts alongside its Fishman materials."
+    },
+    "sections": [
+      {
+        "id": "location",
+        "heading": "Where to Find Dreadtide Revenants",
+        "paragraphs": [
+          "For the Gwynn’s Shrine Roblox game, travel to Grave Island and look for enemies named Dreadtide Revenant. Roblox Den’s illustrated Undyne walkthrough identifies this island as the source of both Dreadtide materials. Check the enemy name before settling into a farm; visiting the island alone does not identify the correct target.",
+          "Use a short scouting pass to find a fight you can repeat comfortably. Note where you started and where you can retreat. The aim is to spend your session defeating the right enemies rather than moving between unrelated encounters. No fixed respawn timer or guaranteed per-kill yield is established by the walkthrough."
+        ]
+      },
+      {
+        "id": "materials",
+        "heading": "Dreadtide Fang and Heart: What You Need",
+        "paragraphs": [
+          "The race evolution uses two distinct Dreadtide drops. Count each inventory stack separately; finishing the Fang target does not mean the Heart requirement is complete."
+        ],
+        "table": {
+          "caption": "Materials for the Undead Fishman evolution",
+          "columns": [
+            "Material",
+            "Reported total",
+            "Source"
+          ],
+          "rows": [
+            [
+              "Dreadtide Fang",
+              "100",
+              "Dreadtide Revenants, Grave Island"
+            ],
+            [
+              "Dreadtide Heart",
+              "50",
+              "Dreadtide Revenants, Grave Island"
+            ],
+            [
+              "Undead Fishman Scale",
+              "20",
+              "Fishman progression"
+            ],
+            [
+              "Undead Fishman Core",
+              "5",
+              "Fishman Captain"
+            ]
+          ]
+        },
+        "links": [
+          {
+            "slug": "undead-fishman",
+            "label": "Follow the Undead Fishman requirements",
+            "description": "Check the race prerequisites before the final evolution."
+          }
+        ]
+      },
+      {
+        "id": "farm",
+        "heading": "How to Farm Dreadtide Materials",
+        "paragraphs": [
+          "Before beginning, write down the Fangs and Hearts you already own and subtract them from the totals above. Check both stacks after a small set of fights. This gives you a useful stopping condition without assuming an unverified drop rate or promising a fixed number of kills.",
+          "Choose a fight you can finish consistently, then repeat it while checking your inventory periodically. If you are losing time recovering, simplify your rotation or choose a safer position. A successful repeatable clear is more useful than a risky attempt that interrupts the entire session.",
+          "Keep the race materials together until you are ready for the evolution. Review your remaining requirements before leaving Grave Island, especially if one stack has reached its target while the other has not."
+        ]
+      },
+      {
+        "id": "progression",
+        "heading": "Where This Farm Fits in the Undyne Route",
+        "paragraphs": [
+          "Roonby and Roblox Den both place the Dreadtide material collection in the Undead Fishman evolution. Start from Fishman and complete its evolution quest first. The earlier challenge asks for five Fishman Captain defeats and three Scales; the later material list is a separate checkpoint.",
+          "Undyne’s weapon unlock is a later goal with its own challenge and recipe. Do not treat Fangs or Hearts as a direct purchase of the weapon. Use the race guide to finish this stage, then inspect Undyne’s separate requirements before planning another farm."
+        ],
+        "links": [
+          {
+            "slug": "races",
+            "label": "Compare race progression paths",
+            "description": "Keep race evolution separate from clan and style choices."
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "heading": "Guide References",
+        "paragraphs": [
+          "This route was checked against published walkthroughs on November 2, 2026. These are community guides; compare the evolution dialogue with your current game before spending materials."
+        ],
+        "links": [
+          {
+            "slug": "https://robloxden.com/game-codes/legacy-piece/guides/how-to-get-undyne-in-legacy-piece",
+            "label": "Roblox Den: illustrated Undyne walkthrough",
+            "description": "Enemy location and Dreadtide material source."
+          },
+          {
+            "slug": "https://roonby.com/2026/08/25/legacy-piece-undyne-guide-how-to-get-undyne-spec-and-undead-fishman/amp/",
+            "label": "Roonby: Undead Fishman requirements",
+            "description": "Evolution sequence and material checklist."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Where are Dreadtide Revenants?",
+        "answer": "On Grave Island, according to the illustrated Roblox Den walkthrough."
+      },
+      {
+        "question": "What are Dreadtide Fangs used for?",
+        "answer": "They are part of the Undead Fishman evolution material list."
+      },
+      {
+        "question": "Are Fangs and Hearts the same item?",
+        "answer": "No. Track the two stacks separately when preparing your evolution."
+      },
+      {
+        "question": "How long will the farm take?",
+        "answer": "There is no verified fixed completion time. Check your actual inventory gains rather than assuming a guaranteed yield."
+      }
+    ],
+    "relatedSlugs": [
+      "undead-fishman",
+      "races"
+    ],
+    "lastReviewed": "2026-11-02"
+  },
+  {
+    "enabled": true,
+    "slug": "blood-stained-stand-arrow",
+    "pageType": "guide",
+    "navLabel": "Blood-Stained Stand Arrow",
+    "title": "Legacy Piece Blood-Stained Stand Arrow – Crafting",
+    "description": "Craft the Blood-Stained Stand Arrow in Legacy Piece with Dio’s quest, 30 fragments, 15 Vampire Blood, Rank SS and the required Money before Shadow Dio.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "How to Get the Blood-Stained Stand Arrow in Legacy Piece",
+      "lead": "Progress through Dio’s quest route, then return to Dio with 30 Broken Stand Arrow Fragments, 15 Vampire Blood, 25,000,000 Money and Rank SS. The crafted arrow leads into the Shadow Dio fight for The World."
+    },
+    "sections": [
+      {
+        "id": "start",
+        "heading": "Start Dio’s Quest Before Crafting",
+        "paragraphs": [
+          "The Blood-Stained Stand Arrow belongs to The World unlock route in the Gwynn’s Shrine game. Begin with Joestar equipped and 5,000,000 Money. Find the Dio quest NPC on the burning building in Ruin City, ahead of the teleporter, and select the arrow-forging dialogue.",
+          "The opening payment starts the route; it does not cover the later crafting bill. Keep the two amounts separate in your budget so you do not arrive at the final exchange with only the entry fee."
+        ],
+        "links": [
+          {
+            "slug": "dio",
+            "label": "Follow the complete Dio quest route",
+            "description": "Read the earlier combat stages before starting the fragment farm."
+          }
+        ]
+      },
+      {
+        "id": "recipe",
+        "heading": "Blood-Stained Stand Arrow Materials and Requirements",
+        "paragraphs": [
+          "AllThingsHow’s illustrated walkthrough lists the crafting recipe below. Check all four entries together when you return to the NPC. Materials alone do not replace the quest or rank conditions."
+        ],
+        "table": {
+          "caption": "Dio’s arrow crafting checklist",
+          "columns": [
+            "Requirement",
+            "Amount or condition"
+          ],
+          "rows": [
+            [
+              "Broken Stand Arrow Fragment",
+              "30"
+            ],
+            [
+              "Vampire Blood",
+              "15"
+            ],
+            [
+              "Money",
+              "25,000,000"
+            ],
+            [
+              "Rank",
+              "SS"
+            ],
+            [
+              "Quest",
+              "Complete Dio’s fragment collection stage"
+            ]
+          ]
+        },
+        "subsections": [
+          {
+            "heading": "Broken Stand Arrow Fragments",
+            "paragraphs": [
+              "Fight the Dio boss at Ruin City’s Sacrifice Table. Roblox Den reports one fragment per kill, with a listed summon cost of 50 Boss Tickets and 100,000 Money. Confirm the cost shown on your summon panel before paying, since mode or version changes can affect the live encounter."
+            ]
+          },
+          {
+            "heading": "Vampire Blood",
+            "paragraphs": [
+              "Dio also supplies Vampire Blood during this farm. Check the stack before returning to craft rather than assuming that collecting enough fragments also completes the Blood requirement. No guaranteed Blood yield is needed for this checklist."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "forge",
+        "heading": "When to Forge the Arrow",
+        "paragraphs": [
+          "Work through the quest objectives in order: survive five complete Defy Fate awakenings in combat, defeat 25 Special Bosses during the active effect, complete the level-15,000-plus deathless boss objective, then collect the fragments. The full Dio guide covers the combat route; this page focuses on the material handoff.",
+          "After the fourth stage, speak to the Dio NPC again to forge the arrow. Compare your quest state, Rank, materials and Money against the crafting panel before confirming. If the exchange is unavailable, identify which condition is missing before spending more tickets."
+        ]
+      },
+      {
+        "id": "next",
+        "heading": "What to Do After Crafting",
+        "paragraphs": [
+          "The arrow is an intermediate item. Return to Dio and select the option to face him in the Stopped World. Defeating Shadow Dio is the next gate for obtaining The World; holding the arrow alone is not the completed style unlock.",
+          "Before entering, check that your combat loadout is ready and that you have followed the route through the forge step. Keep this base-style progression separate from the later Over Heaven upgrade."
+        ],
+        "links": [
+          {
+            "slug": "the-world-over-heaven",
+            "label": "Plan the later Over Heaven upgrade",
+            "description": "Continue here once the base The World route is complete."
+          }
+        ]
+      },
+      {
+        "id": "troubleshooting",
+        "heading": "Why Crafting May Be Blocked",
+        "paragraphs": [
+          "If you have enough fragments, check Vampire Blood next, followed by the final Money payment, your Rank and the active quest. Read the NPC response rather than repeating unrelated boss fights. A checklist lets you fix a specific missing condition without restarting the whole route.",
+          "Keep a note of your inventory before each farming session. When you return to craft, compare the current stacks with that note. This helps distinguish a missing material from a dialogue or progression problem."
+        ]
+      },
+      {
+        "id": "sources",
+        "heading": "Guide References",
+        "paragraphs": [
+          "Published routes were reviewed on November 2, 2026. The links below document the recipe, illustrated Dio farm and final progression. Use the live crafting panel to check for later changes."
+        ],
+        "links": [
+          {
+            "slug": "https://robloxden.com/game-codes/legacy-piece/guides/how-to-get-dio-the-world-and-over-heaven-in-legacy-piece",
+            "label": "Roblox Den: Dio walkthrough",
+            "description": "Illustrated fragment farm and NPC dialogue."
+          },
+          {
+            "slug": "https://allthings.how/how-to-unlock-the-world-dio-spec-in-legacy-piece/",
+            "label": "AllThingsHow: The World unlock",
+            "description": "Quest order, rank gate and crafting handoff."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is the arrow the same as The World?",
+        "answer": "No. You craft the arrow before the Shadow Dio encounter that unlocks the style."
+      },
+      {
+        "question": "Where do Broken Stand Arrow Fragments come from?",
+        "answer": "The Dio boss summoned at the Sacrifice Table in Ruin City."
+      },
+      {
+        "question": "Does the opening payment cover crafting?",
+        "answer": "No. Budget the initial quest payment and the later crafting payment separately."
+      },
+      {
+        "question": "Does crafting finish the entire Dio route?",
+        "answer": "No. Prepare for the Shadow Dio encounter after the crafting step, then follow the separate upgrade route later."
+      }
+    ],
+    "relatedSlugs": [
+      "dio",
+      "the-world-over-heaven"
+    ],
+    "lastReviewed": "2026-11-02"
+  },
+  {
+    "enabled": true,
+    "slug": "conquerors-haki",
+    "pageType": "guide",
+    "navLabel": "Conqueror's Haki",
+    "title": "Legacy Piece Conqueror's Haki – Trials & Unlock",
+    "description": "Unlock Conqueror's Haki in Legacy Piece with Potential Man's trial route, the Money requirement, a four-stage checklist, and fixes for stalled progress.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "How to Get Conqueror's Haki in Legacy Piece",
+      "lead": "Follow Potential Man's Conqueror Trial questline and prepare 5,000,000 Money to unlock Conqueror's Haki, also called Haoshoku. Complete the boss, player, Observation-dodge and world-boss objectives in the order shown by your active quest."
+    },
+    "sections": [
+      {
+        "id": "requirements",
+        "heading": "Conqueror's Haki Requirements and Starting NPC",
+        "paragraphs": [
+          "The Legacy Piece Conqueror Haki route is a separate unlock from Armament, Observation and Armament V2. Community progression references list a 5,000,000 Money requirement and four Conqueror Trials. Potential Man is the quest NPC named by the first trial; speak to him and check which objective your character can accept before beginning a long farm.",
+          "Prepare a dependable boss-fighting loadout and unlock Observation Haki before reaching the dodge objective. Keep enough Money for the Haki exchange instead of spending the entire balance on summons or temporary upgrades. The quest chain includes several different activities, so a strong damage build alone does not complete every condition.",
+          "Check the objective name as well as its counter. The accepted quest is your working checklist: record it before changing islands or switching from boss farming to player combat. Published trial totals can differ between game versions, so follow the counter displayed for your character rather than combining numbers from different guides."
+        ],
+        "links": [
+          {
+            "slug": "haki",
+            "label": "Prepare Armament and Observation Haki",
+            "description": "Review the wider Haki progression before committing to the Conqueror route."
+          }
+        ]
+      },
+      {
+        "id": "trials",
+        "heading": "Conqueror Trial 1–4: Progression Checklist",
+        "paragraphs": [
+          "Work through the trials one stage at a time. The first task is documented as 200 boss defeats; later tasks move into player defeats, Observation Haki dodges and world-boss clears. Use the target and total in the current tracker for those later stages."
+        ],
+        "table": {
+          "caption": "Conqueror trial activities and completion checks",
+          "columns": [
+            "Stage",
+            "Activity",
+            "What to check"
+          ],
+          "rows": [
+            [
+              "Trial 1",
+              "Defeat bosses; published first-task target: 200",
+              "A qualifying boss defeat advances the active counter"
+            ],
+            [
+              "Trial 2",
+              "Defeat players",
+              "The player-combat objective is currently accepted"
+            ],
+            [
+              "Trial 3",
+              "Dodge attacks using Observation Haki",
+              "Successful Haki dodges register in the quest"
+            ],
+            [
+              "Trial 4",
+              "Defeat the specified world boss",
+              "The encounter matches the named quest target"
+            ]
+          ]
+        },
+        "subsections": [
+          {
+            "heading": "Boss defeats and player-combat progress",
+            "paragraphs": [
+              "Begin with an encounter you can repeat without long recovery periods. Check progress after one qualifying defeat, then continue with the same target category. For the player stage, read any conditions in the quest before assuming that every defeat anywhere in the game will count."
+            ]
+          },
+          {
+            "heading": "Observation Haki dodge objective",
+            "paragraphs": [
+              "A successful Observation dodge is a Haki action, not simply moving away from an attack. Activate the required Haki and test it against a manageable opponent. Watch the quest counter before extending the fight; repeated manual dashes can keep you alive without satisfying the objective."
+            ]
+          },
+          {
+            "heading": "World-boss objective and final handoff",
+            "paragraphs": [
+              "The published quest directory names One-Eyed Owl in a world-boss task after Conqueror Trial 3. Read the name in your accepted objective before paying for an encounter. Once the final task is complete, return to Potential Man and follow the completion and unlock dialogue."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "heading": "Conqueror vs Armament V2 and Observation",
+        "paragraphs": [
+          "Conqueror, Haoshoku and Conqueror's Haki refer to the same branch in these guides. Ryou refers to Armament V2, a different progression path. Completing an Armament upgrade does not replace the Conqueror Trials, even when both routes involve late-game combat.",
+          "Observation is relevant because the Conqueror chain includes a dodge objective. Learn to recognise the actual Haki dodge rather than treating movement, a clan passive or a defensive trait as interchangeable. Keep your Haki unlocks and clan rolls separate when diagnosing a missing counter."
+        ],
+        "links": [
+          {
+            "slug": "broken-pedestal",
+            "label": "Observation in the Stardust questline",
+            "description": "See another route that measures successful Haki dodges."
+          }
+        ]
+      },
+      {
+        "id": "troubleshooting",
+        "heading": "Why Your Conqueror Trial Is Not Counting",
+        "paragraphs": [
+          "Start with three checks: the active quest, the requested target and the action that finishes the objective. If the quest asks for a world boss, ordinary boss farming can be the wrong activity. If it asks for Observation dodges, avoiding damage through movement is not the same action.",
+          "Test a single qualifying action and inspect the counter immediately. If the stage has finished, return to the quest giver and accept the next one before continuing. This small check is more useful than completing a large batch of fights against a target that never registered.",
+          "If the unlock dialogue remains unavailable, compare your completed stages and Money with the NPC's requirements. Keep the quest name visible while troubleshooting so you do not accidentally restart an earlier Haki branch or spend resources on the Ryou route."
+        ]
+      },
+      {
+        "id": "references",
+        "heading": "Haki Progression References",
+        "paragraphs": [
+          "The community references below describe the Haki branches and trial objectives. Use your active quest to resolve differences in the totals shown by older walkthroughs."
+        ],
+        "links": [
+          {
+            "slug": "https://aweswikis.com/legacy-piece/wiki/progression/progression-haki-summary/",
+            "label": "Haki progression reference",
+            "description": "Compare the separate Haki unlock paths."
+          },
+          {
+            "slug": "https://aweswikis.com/legacy-piece/wiki/quests/conqueror-trial-1/",
+            "label": "Potential Man and Conqueror Trial 1",
+            "description": "First-stage NPC and boss objective."
+          },
+          {
+            "slug": "https://aweswikis.com/legacy-piece/wiki/quests/",
+            "label": "Quest directory",
+            "description": "Look up the player, dodge and world-boss activities."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do you get Conqueror's Haki in Legacy Piece?",
+        "answer": "Follow Potential Man's Conqueror Trial questline, complete its four stages and prepare the listed 5,000,000 Money unlock cost."
+      },
+      {
+        "question": "Who gives Conqueror Trial 1?",
+        "answer": "The published first-trial reference names Potential Man as the quest giver."
+      },
+      {
+        "question": "Is Haoshoku the same as Conqueror's Haki?",
+        "answer": "Yes. Haoshoku is the alternate name used for this Haki branch."
+      },
+      {
+        "question": "Is Conqueror the same as Ryou?",
+        "answer": "No. Ryou is the Armament V2 path; Conqueror has its own trial chain."
+      },
+      {
+        "question": "Do normal dashes count as Observation Haki dodges?",
+        "answer": "The objective measures successful Observation Haki dodges. Manual movement alone does not establish that the Haki action occurred."
+      },
+      {
+        "question": "Why do guides list different trial totals?",
+        "answer": "Quest requirements can vary across versions. Follow your accepted quest's target and counter, and keep each stage separate."
+      }
+    ],
+    "relatedSlugs": [
+      "haki",
+      "broken-pedestal",
+      "tier-list"
+    ],
+    "lastReviewed": "2026-11-03"
+  },
+  {
+    "enabled": true,
+    "slug": "star-platinum",
+    "pageType": "guide",
+    "navLabel": "Star Platinum",
+    "title": "How to Get Star Platinum in Legacy Piece – Quest Guide",
+    "description": "Get Star Platinum in Legacy Piece through Jotaro's Stardust quests, with Joestar preparation, Broken Pedestal steps, material totals and Observation Haki tips.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "How to Get Star Platinum in Legacy Piece",
+      "lead": "Start Jotaro's Stardust questline on Grave Island with Joestar and 5,000,000 Money. Complete the pedestal, Special Boss, Starlight and Observation objectives, then return to Jotaro with the final materials and 25,000,000 Money."
+    },
+    "sections": [
+      {
+        "id": "preparation",
+        "heading": "Jotaro Location and Star Platinum Requirements",
+        "paragraphs": [
+          "To begin the Legacy Piece Star Platinum route, find Jotaro near the player spawn on Grave Island. Equip the Joestar clan and choose the dialogue about the other arrow. The opening payment starts Stardust; keep it separate from the much larger payment at the final exchange.",
+          "Prepare Observation Haki before the later dodge stage. You will also need a repeatable way to clear Special Boss encounters and collect quest-linked materials. Save useful drops as you progress instead of treating every completed counter as permission to spend the stack."
+        ],
+        "links": [
+          {
+            "slug": "joestar-clan",
+            "label": "Get and keep the Joestar clan",
+            "description": "Prepare the clan prerequisite before visiting Jotaro."
+          },
+          {
+            "slug": "haki",
+            "label": "Unlock Observation Haki",
+            "description": "Set up the dodge mechanic needed later in Stardust."
+          }
+        ]
+      },
+      {
+        "id": "stardust",
+        "heading": "Stardust Quest Stages: Pedestal to Final Materials",
+        "paragraphs": [
+          "Accept each stage before farming its objective. Finding the landmark is the opening checkpoint, while the later tasks measure different actions and inventory items. Keep the tracker visible when you change activities."
+        ],
+        "subsections": [
+          {
+            "heading": "Stardust 1: Find the Broken Pedestal",
+            "paragraphs": [
+              "After accepting the route, explore farther into Grave Island and interact with the Broken Pedestal. Use the quest name and distance indicator to distinguish it from unrelated scenery. Finding Jotaro does not complete this interaction; the pedestal is a separate destination."
+            ]
+          },
+          {
+            "heading": "Stardust 2: Defeat 40 Special Bosses",
+            "paragraphs": [
+              "The task asks for Special Boss defeats, not every enemy with a health bar. Use an eligible summoned or rotation encounter and confirm that the first kill advances the counter. Repeat a fight you can complete safely rather than spending resources on a target outside the requested category."
+            ]
+          },
+          {
+            "heading": "Stardust 3: Collect 50 Starlight Shards",
+            "paragraphs": [
+              "Collect Shards with the matching quest active. Published routes name Chihora, Acherin, The Red Mist and Demon Infernal as sources. Check the item name after a short farming session; Starlight Shards and Starlight Cores are separate materials used at different stages."
+            ]
+          },
+          {
+            "heading": "Stardust 4: Complete the Observation Haki Dodges",
+            "paragraphs": [
+              "This stage is described in the Stardust route as 50 successful Observation Haki dodges. Activate Observation and use a manageable opponent whose attacks you can track. Watch for actual Haki dodges: dashing away or avoiding an attack through positioning is a different action."
+            ]
+          },
+          {
+            "heading": "Stardust 5: Collect Starlight Cores",
+            "paragraphs": [
+              "Prepare 25 Starlight Cores for the later collection and exchange. Keep Stardust 5 active while working on its collection condition. The Undyne route is one published source of Starlight Cores during this stage, so check whether that encounter fits your current progression before planning a combined farm."
+            ]
+          }
+        ],
+        "links": [
+          {
+            "slug": "broken-pedestal",
+            "label": "Find the Broken Pedestal landmark",
+            "description": "Use the focused location guide if the first interaction is your blocker."
+          }
+        ]
+      },
+      {
+        "id": "materials",
+        "heading": "Star Platinum Materials and Final Payment",
+        "paragraphs": [
+          "The final style reference lists 50 Starlight Shards, 25 Starlight Cores, five Frozen Time Cores and 25,000,000 Money after Stardust 5. Keep all three material names separate in your inventory checklist.",
+          "Frozen Time Cores are associated with the Dio boss. Before committing to a long session, check your existing stock and the current summon panel. A material shared with another progression route can be useful here, but the quantities for Star Platinum and Over Heaven are different."
+        ],
+        "table": {
+          "caption": "Star Platinum exchange checklist",
+          "columns": [
+            "Requirement",
+            "Amount",
+            "Preparation"
+          ],
+          "rows": [
+            [
+              "Joestar",
+              "Equipped clan",
+              "Needed to open Jotaro’s route"
+            ],
+            [
+              "Opening Money",
+              "5,000,000",
+              "Separate from the final exchange"
+            ],
+            [
+              "Starlight Shard",
+              "50",
+              "Collect during the matching Stardust stage"
+            ],
+            [
+              "Starlight Core",
+              "25",
+              "Keep the later collection quest active"
+            ],
+            [
+              "Frozen Time Core",
+              "5",
+              "Dio boss material"
+            ],
+            [
+              "Final Money",
+              "25,000,000",
+              "Return to Jotaro after Stardust 5"
+            ]
+          ]
+        },
+        "links": [
+          {
+            "slug": "dio",
+            "label": "Prepare for the Dio encounter",
+            "description": "Read the boss and quest guide before farming shared materials."
+          }
+        ]
+      },
+      {
+        "id": "claim",
+        "heading": "Return to Jotaro and Claim Star Platinum",
+        "paragraphs": [
+          "Once the quest chain and material checklist are complete, return to Jotaro and use the relevant completion or exchange dialogue. The documented route awards the fighting style through Jotaro. The Broken Pedestal is a quest checkpoint, not the place where you claim the finished style.",
+          "After the exchange, check your available fighting styles and select Star Platinum through the normal style controls. Review its move list and practise in a familiar encounter before judging the new rotation. Acquisition, equipping and later upgrades are separate decisions; completing one does not automatically perform the others."
+        ]
+      },
+      {
+        "id": "problems",
+        "heading": "Missing Drops, Stalled Dodges and Other Quest Issues",
+        "paragraphs": [
+          "For a missing material, first compare the active Stardust stage with the exact item name. For a stalled defeat counter, check the boss category. For the dodge stage, check both Observation activation and whether successful Haki dodges are registering.",
+          "If an objective has completed but the next stage is absent, speak to Jotaro again and read the returned dialogue. Use the unfinished task as your next destination instead of repeatedly revisiting the pedestal. Before the final payment, inspect both your balance and the three required material stacks."
+        ]
+      },
+      {
+        "id": "references",
+        "heading": "Star Platinum Route References",
+        "paragraphs": [
+          "These community guides cover Jotaro's route, the material handoff and connected boss farms. Compare the accepted quest with the walkthrough when a version changes an objective."
+        ],
+        "links": [
+          {
+            "slug": "https://aweswikis.com/legacy-piece/wiki/styles/star-platinum/",
+            "label": "Star Platinum style reference",
+            "description": "Jotaro, the Stardust route and exchange requirements."
+          },
+          {
+            "slug": "https://legacypiecewiki.online/guides/undyne-quest/",
+            "label": "Undyne quest and material route",
+            "description": "Starlight Core collection during Stardust 5."
+          },
+          {
+            "slug": "https://www.mrguider.org/guides/legacy-piece-boss-drops-regular-world-boss/",
+            "label": "Boss material reference",
+            "description": "Dio encounters and shared boss drops."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Where is Jotaro in Legacy Piece?",
+        "answer": "Jotaro is near the player spawn on Grave Island in the published Stardust route."
+      },
+      {
+        "question": "Do I need Joestar for Star Platinum?",
+        "answer": "Joestar is the clan prerequisite listed for beginning Jotaro’s Stardust questline."
+      },
+      {
+        "question": "Does the Broken Pedestal give Star Platinum?",
+        "answer": "It completes the opening search stage. The later boss, material, dodge and exchange requirements still follow."
+      },
+      {
+        "question": "Can I farm Starlight Shards before Stardust 3?",
+        "answer": "The documented Shard sources are tied to the active Stardust 3 quest. Accept the matching collection stage before farming."
+      },
+      {
+        "question": "Why are my Stardust dodges not counting?",
+        "answer": "Keep the dodge stage active and check that Observation Haki is performing successful dodges. Ordinary dashes are a different action."
+      },
+      {
+        "question": "How much is the final Star Platinum payment?",
+        "answer": "The listed final exchange costs 25,000,000 Money, separate from the 5,000,000 opening payment and the required materials."
+      }
+    ],
+    "relatedSlugs": [
+      "broken-pedestal",
+      "haki",
+      "joestar-clan",
+      "dio"
+    ],
+    "lastReviewed": "2026-11-03"
+  },
+  {
+    "enabled": true,
+    "slug": "joestar-clan",
+    "pageType": "guide",
+    "navLabel": "Joestar Clan",
+    "title": "How to Get Joestar Clan in Legacy Piece – Rerolls",
+    "description": "Get the Joestar clan in Legacy Piece with a focused Clan Reroll plan, understand its Dio and Jotaro requirements, and avoid replacing it during key quests.",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Legacy Piece Guide",
+      "heading": "How to Get the Joestar Clan in Legacy Piece",
+      "lead": "Community guides describe getting Joestar through the clan reroll system: obtain Clan Reroll items, use the clan interface to roll, and keep Joestar once it appears. Equip it before starting Dio's The World or Jotaro's Star Platinum route."
+    },
+    "sections": [
+      {
+        "id": "get-joestar",
+        "heading": "How to Get Joestar: Clan Reroll Route",
+        "paragraphs": [
+          "The Legacy Piece Joestar clan is a build slot and quest prerequisite, separate from your race, trait or fighting style. Community acquisition guides describe a reroll route rather than a guaranteed reward for simply speaking to Dio or Jotaro.",
+          "Start by checking the clan shown on your character and the reroll resources available to you. If you already have Joestar, keep it while planning the connected quests. If you are still chasing it, decide how many attempts you can spend without losing the resources needed for your next progression goal."
+        ],
+        "subsections": [
+          {
+            "heading": "Collect the correct reroll item",
+            "paragraphs": [
+              "Look for Clan Rerolls rather than Race or Trait Rerolls. Inspect the item description and the pool shown by the clan interface before confirming a use. A reward that changes another build system will not solve a clan prerequisite."
+            ]
+          },
+          {
+            "heading": "Roll through the clan interface",
+            "paragraphs": [
+              "Use your available Clan Rerolls through the clan system and inspect the result after each attempt. Community guides describe the outcome as random. Do not plan around an assumed number of rolls, a guaranteed Joestar result or an unpublished pity threshold."
+            ]
+          },
+          {
+            "heading": "Keep Joestar when it appears",
+            "paragraphs": [
+              "Check the clan name and make sure Joestar is the clan you are using before travelling to a quest NPC. Stop spending rerolls once the requirement is met, especially if your next activity is a Joestar-dependent quest chain."
+            ]
+          }
+        ],
+        "links": [
+          {
+            "slug": "clans",
+            "label": "Compare the complete clan roster",
+            "description": "Review the other clan choices without confusing the clan slot with race or traits."
+          }
+        ]
+      },
+      {
+        "id": "reroll-sources",
+        "heading": "How to Plan Your Clan Reroll Farm",
+        "paragraphs": [
+          "Community reroll guides name world-boss farming as one route to Clan Reroll items, including One-Eyed Owl and Cid Kagenou. Check the current encounter's reward list before choosing a farm. An item drop chance and the chance of rolling Joestar are different probabilities; a number attached to the boss does not establish your chance of receiving this specific clan.",
+          "Choose a boss route you can clear reliably with the resources you already own. Record the rerolls gained and the summon costs over a short session before extending it. This gives you a practical view of the farm without treating a community percentage as a promise.",
+          "If you use code rewards, read the listed reward type first. A chest, Shards, a Race Reroll and a Clan Reroll are not interchangeable. Collect what is available, then set a spending limit for the clan attempts instead of assuming every code contributes directly to Joestar."
+        ],
+        "links": [
+          {
+            "slug": "codes",
+            "label": "Check the site’s code reward list",
+            "description": "Read the reward type and redemption guidance before planning around a reroll bundle."
+          }
+        ]
+      },
+      {
+        "id": "uses",
+        "heading": "What Joestar Unlocks: Dio and Star Platinum",
+        "paragraphs": [
+          "Joestar matters because it opens named progression routes. For Dio, the clan supports the Defy Fate objectives and the path to The World. For Jotaro, it is part of the preparation for Stardust and Star Platinum."
+        ],
+        "table": {
+          "caption": "What to do after obtaining Joestar",
+          "columns": [
+            "Goal",
+            "Next action",
+            "Keep separate"
+          ],
+          "rows": [
+            [
+              "The World",
+              "Visit Dio in Ruin City and prepare the opening payment",
+              "Clan acquisition and the Dio combat quests"
+            ],
+            [
+              "Star Platinum",
+              "Visit Jotaro on Grave Island to begin Stardust",
+              "Joestar and the later Observation requirement"
+            ],
+            [
+              "Blood-Stained Stand Arrow",
+              "Progress through Dio’s quest stages before forging",
+              "The clan prerequisite and the arrow recipe"
+            ]
+          ]
+        },
+        "links": [
+          {
+            "slug": "dio",
+            "label": "Start the Dio and The World route",
+            "description": "Move from clan preparation into the actual quest chain."
+          },
+          {
+            "slug": "star-platinum",
+            "label": "Follow Jotaro’s Star Platinum quest",
+            "description": "Prepare the pedestal, materials and Observation stages."
+          }
+        ]
+      },
+      {
+        "id": "passive",
+        "heading": "Inherited Resolve and Defy Fate",
+        "paragraphs": [
+          "The published Joestar clan description names Inherited Resolve as its passive and connects accumulated damage with Defy Fate. This is why Joestar is more than a label on the Dio route: early objectives refer to the clan's combat effect.",
+          "Before beginning those objectives, practise recognising the effect during a fight you can survive. Keep enough room to reposition and watch the active state rather than guessing from your remaining health. Check the specific quest description before deciding whether you need to survive an activation or finish a qualifying enemy during it.",
+          "Once a quest chain is underway, finish the required clan-dependent stages before considering another reroll. A higher-ranked general-purpose clan can still be the wrong choice when the NPC is checking specifically for Joestar."
+        ]
+      },
+      {
+        "id": "mistakes",
+        "heading": "Common Joestar Reroll Mistakes",
+        "paragraphs": [
+          "The most expensive mistake is continuing to reroll after reaching the clan you need. Pause between attempts and read the actual result. A fixed stopping point is particularly useful when you are collecting several rewards at once and moving quickly through inventory actions.",
+          "Another common mistake is expecting a race change to unlock a clan-gated NPC. If Dio or Jotaro refuses to begin the route, check the equipped clan and the opening Money requirement together. Owning enough materials for a later stage does not necessarily satisfy the entry dialogue.",
+          "Finally, keep the acquisition goal separate from damage rankings. This page answers how to pursue and use Joestar for its connected routes. The wider clan guide is the place to compare alternatives after your quest requirement has been handled."
+        ]
+      },
+      {
+        "id": "references",
+        "heading": "Joestar and Clan Progression References",
+        "paragraphs": [
+          "Community sources describe the reroll route and Joestar's quest role. Check the available clan pool and item description before spending resources; published drop rates do not establish a guaranteed Joestar roll."
+        ],
+        "links": [
+          {
+            "slug": "https://legacy-piece-wiki.wiki/en/clans/legacy-piece-clan-drop-rate/",
+            "label": "Community clan acquisition guide",
+            "description": "Reroll terminology and described acquisition paths."
+          },
+          {
+            "slug": "https://www.mrguider.org/articles/all-clans-in-legacy-piece-roblox/",
+            "label": "Joestar passive and clan reference",
+            "description": "Inherited Resolve, Defy Fate and the Dio prerequisite."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do you become a Joestar in Legacy Piece?",
+        "answer": "Community guides describe collecting Clan Rerolls and using the clan system until Joestar appears. Keep it equipped for the connected quest routes."
+      },
+      {
+        "question": "Is Joestar a race or a clan?",
+        "answer": "Joestar is a clan. Race changes and trait changes are separate build systems."
+      },
+      {
+        "question": "Is Joestar guaranteed after a fixed number of rerolls?",
+        "answer": "Do not assume a guaranteed number of attempts or a pity threshold unless the current clan interface explicitly shows one."
+      },
+      {
+        "question": "Do I need Joestar for Dio?",
+        "answer": "Yes. The documented base The World route begins with the Joestar clan and an opening Money payment."
+      },
+      {
+        "question": "Does Joestar automatically unlock Star Platinum?",
+        "answer": "No. It is an entry prerequisite for Jotaro’s route; the Stardust quests, Haki objective, materials and final payment still follow."
+      },
+      {
+        "question": "Should I reroll Joestar during a quest?",
+        "answer": "Keep it while completing Joestar-dependent objectives. Compare replacement clans after you have finished the route that needs it."
+      }
+    ],
+    "relatedSlugs": [
+      "clans",
+      "dio",
+      "star-platinum"
+    ],
+    "lastReviewed": "2026-11-03"
   }
 ]

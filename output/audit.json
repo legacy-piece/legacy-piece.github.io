@@ -1,0 +1,208 @@
+{
+  "freeze": "PASS",
+  "oldPages": 19,
+  "approvedLinks": [
+    {
+      "sourceSlug": "dio",
+      "section": "requirements",
+      "slug": "blood-stained-stand-arrow",
+      "label": "Prepare the Blood-Stained Stand Arrow materials",
+      "description": "Follow the location, material checklist and next quest step."
+    },
+    {
+      "sourceSlug": "undead-fishman",
+      "section": "requirements",
+      "slug": "dreadtide-revenant",
+      "label": "Find Dreadtide Revenants and farm Fangs and Hearts",
+      "description": "Follow the location, material checklist and next quest step."
+    }
+  ],
+  "navLinks": [
+    "/araya/",
+    "/blood-stained-stand-arrow/",
+    "/broken-pedestal/",
+    "/clans/",
+    "/codes/",
+    "/defy-fate/",
+    "/dio/",
+    "/dreadtide-revenant/",
+    "/fruits/",
+    "/haki/",
+    "/lost-afterimage/",
+    "/races/",
+    "/realm-beyond-heaven/",
+    "/the-world-over-heaven/",
+    "/tier-list/",
+    "/traits/",
+    "/trello-wiki-discord/",
+    "/trello/",
+    "/undead-fishman/",
+    "/wiki/",
+    "/wild-hunt/"
+  ],
+  "brokenInternalLinks": [],
+  "seo": [
+    {
+      "slug": "dreadtide-revenant",
+      "title": "Legacy Piece Dreadtide Revenant – Location & Drops",
+      "titleChars": 50,
+      "description": "Find Dreadtide Revenants on Grave Island in Legacy Piece, learn where Fangs and Hearts fit into Undead Fishman, and prepare a focused material farm.",
+      "descriptionChars": 148,
+      "visibleWords": 637,
+      "mainKeyword": "legacy piece dreadtide revenant",
+      "phraseCount": 1,
+      "per100Words": 0.157,
+      "normalizedVariantCount": 1,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Legacy Piece Dreadtide Revenant: Location and Drops"
+        },
+        {
+          "level": "h2",
+          "text": "Where to Find Dreadtide Revenants"
+        },
+        {
+          "level": "h2",
+          "text": "Dreadtide Fang and Heart: What You Need"
+        },
+        {
+          "level": "h2",
+          "text": "How to Farm Dreadtide Materials"
+        },
+        {
+          "level": "h2",
+          "text": "Where This Farm Fits in the Undyne Route"
+        },
+        {
+          "level": "h2",
+          "text": "Guide References"
+        },
+        {
+          "level": "h2",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": "h3",
+          "text": "Where are Dreadtide Revenants?"
+        },
+        {
+          "level": "h3",
+          "text": "What are Dreadtide Fangs used for?"
+        },
+        {
+          "level": "h3",
+          "text": "Are Fangs and Hearts the same item?"
+        },
+        {
+          "level": "h3",
+          "text": "How long will the farm take?"
+        },
+        {
+          "level": "h2",
+          "text": "Related Guides"
+        }
+      ],
+      "faq": 4,
+      "canonical": "https://legacy-piece.github.io/dreadtide-revenant/",
+      "robots": "index, follow",
+      "schema": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internalLinks": [
+        "/",
+        "/races/",
+        "/undead-fishman/"
+      ]
+    },
+    {
+      "slug": "blood-stained-stand-arrow",
+      "title": "Legacy Piece Blood-Stained Stand Arrow – Crafting",
+      "titleChars": 49,
+      "description": "Craft the Blood-Stained Stand Arrow in Legacy Piece with Dio’s quest, 30 fragments, 15 Vampire Blood, Rank SS and the required Money before Shadow Dio.",
+      "descriptionChars": 151,
+      "visibleWords": 756,
+      "mainKeyword": "legacy piece blood stained stand arrow",
+      "phraseCount": 0,
+      "per100Words": 0.0,
+      "normalizedVariantCount": 0,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "How to Get the Blood-Stained Stand Arrow in Legacy Piece"
+        },
+        {
+          "level": "h2",
+          "text": "Start Dio’s Quest Before Crafting"
+        },
+        {
+          "level": "h2",
+          "text": "Blood-Stained Stand Arrow Materials and Requirements"
+        },
+        {
+          "level": "h3",
+          "text": "Broken Stand Arrow Fragments"
+        },
+        {
+          "level": "h3",
+          "text": "Vampire Blood"
+        },
+        {
+          "level": "h2",
+          "text": "When to Forge the Arrow"
+        },
+        {
+          "level": "h2",
+          "text": "What to Do After Crafting"
+        },
+        {
+          "level": "h2",
+          "text": "Why Crafting May Be Blocked"
+        },
+        {
+          "level": "h2",
+          "text": "Guide References"
+        },
+        {
+          "level": "h2",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": "h3",
+          "text": "Is the arrow the same as The World?"
+        },
+        {
+          "level": "h3",
+          "text": "Where do Broken Stand Arrow Fragments come from?"
+        },
+        {
+          "level": "h3",
+          "text": "Does the opening payment cover crafting?"
+        },
+        {
+          "level": "h3",
+          "text": "Does crafting finish the entire Dio route?"
+        },
+        {
+          "level": "h2",
+          "text": "Related Guides"
+        }
+      ],
+      "faq": 4,
+      "canonical": "https://legacy-piece.github.io/blood-stained-stand-arrow/",
+      "robots": "index, follow",
+      "schema": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internalLinks": [
+        "/",
+        "/dio/",
+        "/the-world-over-heaven/"
+      ]
+    }
+  ]
+}

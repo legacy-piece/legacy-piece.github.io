@@ -1,0 +1,39 @@
+
+> legacy-piece-guide@1.0.0 build:site
+> next build --webpack && node scripts/postbuild.mjs
+
+▲ Next.js 16.3.2 (webpack)
+✓ Running next.config.ts took 1033ms
+
+  Creating an optimized production build ...
+(node:11681) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✓ Compiled successfully in 3.3s
+  Running TypeScript ...
+  Finished TypeScript in 943ms ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/29) ...
+  Generating static pages using 7 workers (7/29) 
+  Generating static pages using 7 workers (14/29) 
+  Generating static pages using 7 workers (21/29) 
+✓ Generating static pages using 7 workers (29/29) in 401ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[...slug]
+│ ├ ● /codes
+│ ├ ● /tier-list
+│ ├ ● /dio
+│ └ ● [+20 more paths]
+├ ○ /manifest.webmanifest
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Static output prepared for GitHub Pages.

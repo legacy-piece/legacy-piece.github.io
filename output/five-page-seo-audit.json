@@ -1,0 +1,538 @@
+{
+  "freeze": "PASS",
+  "oldPages": 19,
+  "approvedLinks": [
+    {
+      "sourceSlug": "dio",
+      "section": "requirements",
+      "slug": "blood-stained-stand-arrow",
+      "label": "Prepare the Blood-Stained Stand Arrow materials",
+      "description": "Follow the location, material checklist and next quest step."
+    },
+    {
+      "sourceSlug": "undead-fishman",
+      "section": "requirements",
+      "slug": "dreadtide-revenant",
+      "label": "Find Dreadtide Revenants and farm Fangs and Hearts",
+      "description": "Follow the location, material checklist and next quest step."
+    },
+    {
+      "sourceSlug": "haki",
+      "section": "conqueror",
+      "slug": "conquerors-haki",
+      "label": "Follow the Conqueror’s Haki trial route",
+      "description": "Prepare the separate Haoshoku quest chain and track its objectives."
+    },
+    {
+      "sourceSlug": "broken-pedestal",
+      "section": "star-platinum",
+      "slug": "star-platinum",
+      "label": "Complete the Star Platinum questline",
+      "description": "Continue from the pedestal through materials, Haki dodges and the final exchange."
+    },
+    {
+      "sourceSlug": "clans",
+      "section": "roster",
+      "slug": "joestar-clan",
+      "label": "Get Joestar and prepare its quest routes",
+      "description": "Plan Clan Rerolls and the prerequisites for Dio and Jotaro."
+    }
+  ],
+  "navLinks": [
+    "/araya/",
+    "/blood-stained-stand-arrow/",
+    "/broken-pedestal/",
+    "/clans/",
+    "/codes/",
+    "/conquerors-haki/",
+    "/defy-fate/",
+    "/dio/",
+    "/dreadtide-revenant/",
+    "/fruits/",
+    "/haki/",
+    "/joestar-clan/",
+    "/lost-afterimage/",
+    "/races/",
+    "/realm-beyond-heaven/",
+    "/star-platinum/",
+    "/the-world-over-heaven/",
+    "/tier-list/",
+    "/traits/",
+    "/trello-wiki-discord/",
+    "/trello/",
+    "/undead-fishman/",
+    "/wiki/",
+    "/wild-hunt/"
+  ],
+  "brokenInternalLinks": [],
+  "seo": [
+    {
+      "slug": "dreadtide-revenant",
+      "title": "Legacy Piece Dreadtide Revenant – Location & Drops",
+      "titleChars": 50,
+      "description": "Find Dreadtide Revenants on Grave Island in Legacy Piece, learn where Fangs and Hearts fit into Undead Fishman, and prepare a focused material farm.",
+      "descriptionChars": 148,
+      "visibleWords": 637,
+      "mainKeyword": "legacy piece dreadtide revenant",
+      "phraseCount": 1,
+      "per100Words": 0.157,
+      "normalizedVariantCount": 1,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Legacy Piece Dreadtide Revenant: Location and Drops"
+        },
+        {
+          "level": "h2",
+          "text": "Where to Find Dreadtide Revenants"
+        },
+        {
+          "level": "h2",
+          "text": "Dreadtide Fang and Heart: What You Need"
+        },
+        {
+          "level": "h2",
+          "text": "How to Farm Dreadtide Materials"
+        },
+        {
+          "level": "h2",
+          "text": "Where This Farm Fits in the Undyne Route"
+        },
+        {
+          "level": "h2",
+          "text": "Guide References"
+        },
+        {
+          "level": "h2",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": "h3",
+          "text": "Where are Dreadtide Revenants?"
+        },
+        {
+          "level": "h3",
+          "text": "What are Dreadtide Fangs used for?"
+        },
+        {
+          "level": "h3",
+          "text": "Are Fangs and Hearts the same item?"
+        },
+        {
+          "level": "h3",
+          "text": "How long will the farm take?"
+        },
+        {
+          "level": "h2",
+          "text": "Related Guides"
+        }
+      ],
+      "faq": 4,
+      "canonical": "https://legacy-piece.github.io/dreadtide-revenant/",
+      "robots": "index, follow",
+      "schema": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internalLinks": [
+        "/",
+        "/races/",
+        "/undead-fishman/"
+      ]
+    },
+    {
+      "slug": "blood-stained-stand-arrow",
+      "title": "Legacy Piece Blood-Stained Stand Arrow – Crafting",
+      "titleChars": 49,
+      "description": "Craft the Blood-Stained Stand Arrow in Legacy Piece with Dio’s quest, 30 fragments, 15 Vampire Blood, Rank SS and the required Money before Shadow Dio.",
+      "descriptionChars": 151,
+      "visibleWords": 756,
+      "mainKeyword": "legacy piece blood stained stand arrow",
+      "phraseCount": 0,
+      "per100Words": 0.0,
+      "normalizedVariantCount": 0,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "How to Get the Blood-Stained Stand Arrow in Legacy Piece"
+        },
+        {
+          "level": "h2",
+          "text": "Start Dio’s Quest Before Crafting"
+        },
+        {
+          "level": "h2",
+          "text": "Blood-Stained Stand Arrow Materials and Requirements"
+        },
+        {
+          "level": "h3",
+          "text": "Broken Stand Arrow Fragments"
+        },
+        {
+          "level": "h3",
+          "text": "Vampire Blood"
+        },
+        {
+          "level": "h2",
+          "text": "When to Forge the Arrow"
+        },
+        {
+          "level": "h2",
+          "text": "What to Do After Crafting"
+        },
+        {
+          "level": "h2",
+          "text": "Why Crafting May Be Blocked"
+        },
+        {
+          "level": "h2",
+          "text": "Guide References"
+        },
+        {
+          "level": "h2",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": "h3",
+          "text": "Is the arrow the same as The World?"
+        },
+        {
+          "level": "h3",
+          "text": "Where do Broken Stand Arrow Fragments come from?"
+        },
+        {
+          "level": "h3",
+          "text": "Does the opening payment cover crafting?"
+        },
+        {
+          "level": "h3",
+          "text": "Does crafting finish the entire Dio route?"
+        },
+        {
+          "level": "h2",
+          "text": "Related Guides"
+        }
+      ],
+      "faq": 4,
+      "canonical": "https://legacy-piece.github.io/blood-stained-stand-arrow/",
+      "robots": "index, follow",
+      "schema": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internalLinks": [
+        "/",
+        "/dio/",
+        "/the-world-over-heaven/"
+      ]
+    },
+    {
+      "slug": "conquerors-haki",
+      "title": "Legacy Piece Conqueror's Haki – Trials & Unlock",
+      "titleChars": 47,
+      "description": "Unlock Conqueror's Haki in Legacy Piece with Potential Man's trial route, the Money requirement, a four-stage checklist, and fixes for stalled progress.",
+      "descriptionChars": 152,
+      "visibleWords": 983,
+      "mainKeyword": "legacy piece conqueror haki",
+      "phraseCount": 1,
+      "per100Words": 0.102,
+      "normalizedVariantCount": 1,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "How to Get Conqueror's Haki in Legacy Piece"
+        },
+        {
+          "level": "h2",
+          "text": "Conqueror's Haki Requirements and Starting NPC"
+        },
+        {
+          "level": "h2",
+          "text": "Conqueror Trial 1–4: Progression Checklist"
+        },
+        {
+          "level": "h3",
+          "text": "Boss defeats and player-combat progress"
+        },
+        {
+          "level": "h3",
+          "text": "Observation Haki dodge objective"
+        },
+        {
+          "level": "h3",
+          "text": "World-boss objective and final handoff"
+        },
+        {
+          "level": "h2",
+          "text": "Conqueror vs Armament V2 and Observation"
+        },
+        {
+          "level": "h2",
+          "text": "Why Your Conqueror Trial Is Not Counting"
+        },
+        {
+          "level": "h2",
+          "text": "Haki Progression References"
+        },
+        {
+          "level": "h2",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": "h3",
+          "text": "How do you get Conqueror's Haki in Legacy Piece?"
+        },
+        {
+          "level": "h3",
+          "text": "Who gives Conqueror Trial 1?"
+        },
+        {
+          "level": "h3",
+          "text": "Is Haoshoku the same as Conqueror's Haki?"
+        },
+        {
+          "level": "h3",
+          "text": "Is Conqueror the same as Ryou?"
+        },
+        {
+          "level": "h3",
+          "text": "Do normal dashes count as Observation Haki dodges?"
+        },
+        {
+          "level": "h3",
+          "text": "Why do guides list different trial totals?"
+        },
+        {
+          "level": "h2",
+          "text": "Related Guides"
+        }
+      ],
+      "faq": 6,
+      "canonical": "https://legacy-piece.github.io/conquerors-haki/",
+      "robots": "index, follow",
+      "schema": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internalLinks": [
+        "/",
+        "/broken-pedestal/",
+        "/haki/",
+        "/tier-list/"
+      ]
+    },
+    {
+      "slug": "star-platinum",
+      "title": "How to Get Star Platinum in Legacy Piece – Quest Guide",
+      "titleChars": 54,
+      "description": "Get Star Platinum in Legacy Piece through Jotaro's Stardust quests, with Joestar preparation, Broken Pedestal steps, material totals and Observation Haki tips.",
+      "descriptionChars": 159,
+      "visibleWords": 1100,
+      "mainKeyword": "how to get star platinum in legacy piece",
+      "phraseCount": 1,
+      "per100Words": 0.091,
+      "normalizedVariantCount": 1,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "How to Get Star Platinum in Legacy Piece"
+        },
+        {
+          "level": "h2",
+          "text": "Jotaro Location and Star Platinum Requirements"
+        },
+        {
+          "level": "h2",
+          "text": "Stardust Quest Stages: Pedestal to Final Materials"
+        },
+        {
+          "level": "h3",
+          "text": "Stardust 1: Find the Broken Pedestal"
+        },
+        {
+          "level": "h3",
+          "text": "Stardust 2: Defeat 40 Special Bosses"
+        },
+        {
+          "level": "h3",
+          "text": "Stardust 3: Collect 50 Starlight Shards"
+        },
+        {
+          "level": "h3",
+          "text": "Stardust 4: Complete the Observation Haki Dodges"
+        },
+        {
+          "level": "h3",
+          "text": "Stardust 5: Collect Starlight Cores"
+        },
+        {
+          "level": "h2",
+          "text": "Star Platinum Materials and Final Payment"
+        },
+        {
+          "level": "h2",
+          "text": "Return to Jotaro and Claim Star Platinum"
+        },
+        {
+          "level": "h2",
+          "text": "Missing Drops, Stalled Dodges and Other Quest Issues"
+        },
+        {
+          "level": "h2",
+          "text": "Star Platinum Route References"
+        },
+        {
+          "level": "h2",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": "h3",
+          "text": "Where is Jotaro in Legacy Piece?"
+        },
+        {
+          "level": "h3",
+          "text": "Do I need Joestar for Star Platinum?"
+        },
+        {
+          "level": "h3",
+          "text": "Does the Broken Pedestal give Star Platinum?"
+        },
+        {
+          "level": "h3",
+          "text": "Can I farm Starlight Shards before Stardust 3?"
+        },
+        {
+          "level": "h3",
+          "text": "Why are my Stardust dodges not counting?"
+        },
+        {
+          "level": "h3",
+          "text": "How much is the final Star Platinum payment?"
+        },
+        {
+          "level": "h2",
+          "text": "Related Guides"
+        }
+      ],
+      "faq": 6,
+      "canonical": "https://legacy-piece.github.io/star-platinum/",
+      "robots": "index, follow",
+      "schema": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internalLinks": [
+        "/",
+        "/broken-pedestal/",
+        "/dio/",
+        "/haki/",
+        "/joestar-clan/"
+      ]
+    },
+    {
+      "slug": "joestar-clan",
+      "title": "How to Get Joestar Clan in Legacy Piece – Rerolls",
+      "titleChars": 49,
+      "description": "Get the Joestar clan in Legacy Piece with a focused Clan Reroll plan, understand its Dio and Jotaro requirements, and avoid replacing it during key quests.",
+      "descriptionChars": 155,
+      "visibleWords": 1165,
+      "mainKeyword": "how to get joestar clan in legacy piece",
+      "phraseCount": 0,
+      "per100Words": 0.0,
+      "normalizedVariantCount": 0,
+      "headings": [
+        {
+          "level": "h1",
+          "text": "How to Get the Joestar Clan in Legacy Piece"
+        },
+        {
+          "level": "h2",
+          "text": "How to Get Joestar: Clan Reroll Route"
+        },
+        {
+          "level": "h3",
+          "text": "Collect the correct reroll item"
+        },
+        {
+          "level": "h3",
+          "text": "Roll through the clan interface"
+        },
+        {
+          "level": "h3",
+          "text": "Keep Joestar when it appears"
+        },
+        {
+          "level": "h2",
+          "text": "How to Plan Your Clan Reroll Farm"
+        },
+        {
+          "level": "h2",
+          "text": "What Joestar Unlocks: Dio and Star Platinum"
+        },
+        {
+          "level": "h2",
+          "text": "Inherited Resolve and Defy Fate"
+        },
+        {
+          "level": "h2",
+          "text": "Common Joestar Reroll Mistakes"
+        },
+        {
+          "level": "h2",
+          "text": "Joestar and Clan Progression References"
+        },
+        {
+          "level": "h2",
+          "text": "Frequently Asked Questions"
+        },
+        {
+          "level": "h3",
+          "text": "How do you become a Joestar in Legacy Piece?"
+        },
+        {
+          "level": "h3",
+          "text": "Is Joestar a race or a clan?"
+        },
+        {
+          "level": "h3",
+          "text": "Is Joestar guaranteed after a fixed number of rerolls?"
+        },
+        {
+          "level": "h3",
+          "text": "Do I need Joestar for Dio?"
+        },
+        {
+          "level": "h3",
+          "text": "Does Joestar automatically unlock Star Platinum?"
+        },
+        {
+          "level": "h3",
+          "text": "Should I reroll Joestar during a quest?"
+        },
+        {
+          "level": "h2",
+          "text": "Related Guides"
+        }
+      ],
+      "faq": 6,
+      "canonical": "https://legacy-piece.github.io/joestar-clan/",
+      "robots": "index, follow",
+      "schema": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internalLinks": [
+        "/",
+        "/clans/",
+        "/codes/",
+        "/dio/",
+        "/star-platinum/"
+      ]
+    }
+  ]
+}

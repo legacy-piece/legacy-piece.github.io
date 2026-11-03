@@ -20,7 +20,7 @@ export function FixedTemplateHome({ home }: { home: HomePageDefinition }) {
     .filter((page) => page.slug.replace(/^\/+|\/+$/g, ""))
     .map((page) => ({ slug: page.slug, label: page.navLabel }));
   const entries = visibleCorePages
-    .filter((page) => !["wild-hunt", "defy-fate", "realm-beyond-heaven", "wiki", "broken-pedestal", "haki"].includes(page.slug))
+    .filter((page) => !["wild-hunt", "defy-fate", "realm-beyond-heaven", "wiki", "broken-pedestal", "haki", "dreadtide-revenant", "conquerors-haki", "star-platinum", "blood-stained-stand-arrow", "joestar-clan"].includes(page.slug))
     .map((page) => ({
       href: routePath(page.slug),
       title: page.navLabel,
